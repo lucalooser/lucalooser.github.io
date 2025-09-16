@@ -6,5 +6,7 @@ weight: 1
 design:
   columns: "1"
 ---
+<iframe src="../../static/uploads/lucalooser_cv.pdf" width="100%" height="800px"></iframe>
 
-You can [**download my CV here**](/static/lucalooser_cv.pdf){ .btn .btn-primary target="_blank" }.
+[Download my CV](../../static/uploads/lucalooser_cv.pdf){ .btn .btn-primary target="_blank" }
+
