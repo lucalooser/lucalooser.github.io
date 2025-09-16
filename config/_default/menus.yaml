@@ -8,13 +8,13 @@ main:
     url: /
     weight: 10
   - name: Research
-    url: /#research
+    url: research/
     weight: 11
   - name: CV
-    url: /#experience
+    url: cv/
     weight: 12
   - name: Teaching
-    url: /#teaching
+    url: teaching/
     weight: 13
   - name: Contact
     url: contact/
