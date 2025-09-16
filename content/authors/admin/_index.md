@@ -57,8 +57,7 @@ education:
     institution: Pompeu Fabra
     date_start: 2027-07-31
     date_end: 2021-09-01
-    summary: |
-      
+    summary: 
     button:
       text: 'Read Thesis'
       url: 'https://example.com/thesis.pdf'
@@ -66,12 +65,12 @@ education:
     institution: London School of Economics
     date_start: 2020-09-01
     date_end: 2021-07-31
-    summary: |
+    summary: 
   - area: BA Economics
     institution: Universität St. Gallen
     date_start: 2015-09-01
     date_end: 2019-05-01
-    summary: |
+    summary: 
 
 work:
   - position: Intern Inflation Forecasting
