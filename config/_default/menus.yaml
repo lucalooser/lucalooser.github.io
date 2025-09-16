@@ -11,10 +11,10 @@ main:
     url: research/
     weight: 11
   - name: CV
-    url: cv/
+    url: research/
     weight: 12
   - name: Teaching
-    url: teaching/
+    url: projects/
     weight: 13
   - name: Contact
     url: contact/
