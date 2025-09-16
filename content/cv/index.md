@@ -3,6 +3,10 @@ title: "Curriculum Vitae"
 type: page
 ---
 
-Here you can download my CV:
 
-[📄 **Download my CV**](../../static/uploads/lucalooser_cv.pdf){ .btn .btn-primary target="_blank" }
+[**Download my CV**](/uploads/lucalooser_cv.pdf)
+
+<iframe src="/uploads/lucalooser_cv.pdf" width="100%" height="800px"></iframe>
+
+
+
