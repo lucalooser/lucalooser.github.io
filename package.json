@@ -12,5 +12,8 @@
     "@tailwindcss/cli": "^4.1.12",
     "@tailwindcss/typography": "^0.5.10",
     "tailwindcss": "^4.1.12"
+  },
+  "devDependencies": {
+    "hugo-extended": "^0.150.0"
   }
 }
