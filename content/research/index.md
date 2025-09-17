@@ -1,5 +1,3 @@
-# Job Market Paper
-
 ---
 title: "Research"
 type: page
@@ -9,8 +7,8 @@ type: page
 **Abstract:**  
 This paper studies ...  
 
-[📄 Download Paper](/files/jobmarket.pdf){ .btn .btn-primary target="_blank" }  
-[📊 View Slides](/files/jobmarket-slides.pdf){ .btn .btn-outline target="_blank" }
+[📄 Download Paper](uploads/lucalooser_cv.pdf){ .btn .btn-primary target="_blank" }  
+[📊 View Slides](uploads/lucalooser_cv.pdf){ .btn .btn-outline target="_blank" }
 
 ---
 
@@ -20,7 +18,7 @@ This paper studies ...
 **Abstract:**  
 This explores ...  
 
-[📄 Download Paper](/files/working-paper-a.pdf){ .btn .btn-primary target="_blank" }
+[📄 Download Paper](uploads/lucalooser_cv.pdf){ .btn .btn-primary target="_blank" }
 
 ---
 
