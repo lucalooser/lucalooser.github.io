@@ -49,18 +49,16 @@ type: page
 <div style="display: flex; align-items: flex-start; gap: 20px; margin-bottom: 2rem;">
 
   <div style="flex: 1; max-width: 200px;">
-    <img src="/uploads/jobmarket.png" alt="Job Market Paper image" style="max-width:100%; border-radius: 8px;">
+    <img src="/uploads/Shrimp_picture.png" alt="Job Market Paper image" style="max-width:100%; border-radius: 8px;">
   </div>
 
   <div style="flex: 3;">
-    <strong>Title:</strong> My Job Market Paper  
+    <strong>Title:</strong> The Intergenerational Benefits of a Temporary Negative Shock: Evidence from Import Restrictions in Thailand  
     <br>
-    <em>(joint with 
-      <a href="https://example.com/x" target="_blank">X</a>, 
-      <a href="https://example.com/y" target="_blank">Y</a>, 
-      <a href="https://example.com/z" target="_blank">Z</a>
+    <em>(joint with Chanont Banternghansa, 
+      <a href="https://sites.google.com/view/tkleineberg/home" target="_blank">Elisa Giannone</a>
     )</em>
-    <p><strong>Abstract:</strong> This paper studies …</p>
+    <p><strong>Abstract:</strong> We exploit a small, transitory and sector-specific shock in Thailand and find that it has large, heterogeneous and long-lasting effects by inducing permanent sectoral reallocation. We also provide evidence of causal spillover effects to the rest of the economy. Such temporary and negative demand shock pushes out permanently the worst sorted and less wealthy workers in a sector, turning into a “gift” to the stayers, who gain larger income and market power after the shock. By looking at the education outcomes, however, we find that the shock is a “gift” to the education of the young in the leavers’ family but not for the young in the stayers’ families. Combining the EU ban on black tiger shrimps with detailed household data from the Townsend Thai Project, we investigate the resource reallocation within and across sectors, changes in sectoral productivity and welfare within Thailand. We find that: 1) shrimp farmers experience a loss of income of $10, 500 or 50% of their pre-ban income level; 2) their income recover after 5-6 years to pre-ban levels; 3) shrimp farmers are more likely to transition to other sectors even after 10 years; 4) they accumulate assets in new sectors; 5) there are significant spillover effects on local income and sectoral reallocation for non-shrimp farmers; 6) stayers in the sector “gain” in the long-term income but young members of households that left the shrimp sector “gain” in education creating motive for intergenerational mobility.</p>
   </div>
 
 </div>
@@ -77,7 +75,7 @@ type: page
 <div style="display: flex; align-items: flex-start; gap: 20px; margin-bottom: 2rem;">
 
   <div style="flex: 1; max-width: 200px;">
-    <img src="/uploads/jobmarket.png" alt="Job Market Paper image" style="max-width:100%; border-radius: 8px;">
+    <img src="/uploads/mignet.png" alt="Job Market Paper image" style="max-width:100%; border-radius: 8px;">
   </div>
 
   <div style="flex: 3;">
