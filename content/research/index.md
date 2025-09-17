@@ -1,5 +1,5 @@
 ---
-title: "Research"
+title: " "
 type: page
 ---
 
@@ -9,8 +9,8 @@ type: page
 **Abstract:**  
 This paper studies ...  
 
-[📄 Download Paper](uploads/lucalooser_cv.pdf){ .btn .btn-primary target="_blank" }  
-[📊 View Slides](uploads/lucalooser_cv.pdf){ .btn .btn-outline target="_blank" }
+[📄 Download Paper](uploads/lucalooser_cv.pdf)
+[📊 View Slides](uploads/lucalooser_cv.pdf)
 
 ---
 
@@ -20,7 +20,7 @@ This paper studies ...
 **Abstract:**  
 This explores ...  
 
-[📄 Download Paper](uploads/lucalooser_cv.pdf){ .btn .btn-primary target="_blank" }
+[📄 Download Paper](uploads/lucalooser_cv.pdf)
 
 ---
 
