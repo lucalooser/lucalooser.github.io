@@ -16,7 +16,7 @@ sections:
       text: ''
       # Show a call-to-action button under your biography? (optional)
       headings:
-        about: ''
+        about: 'Welcome to my Website!'
 #        education: ''
 #        interests: ''
       button:

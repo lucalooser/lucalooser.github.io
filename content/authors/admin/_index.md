@@ -120,6 +120,6 @@ languages:
 #      Recognized for contributions to scaling laws in deep learning.
 ---
 
-Welcome to my Website! I am a fifth Year PhD Candidate in Economics at Universitat Pompeu Fabra. My research interests lie in Macro Development, Economic Geography and Family Economics. 
+I am a fifth Year PhD Candidate in Economics at Universitat Pompeu Fabra. My research is at the intersection of Macro Development, Economic Geography and Family Economics. In particular, I am interested in studying the effect of families and children during the process of structural transformation.
 
 In my JMP I study...
