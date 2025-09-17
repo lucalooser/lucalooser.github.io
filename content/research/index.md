@@ -19,8 +19,8 @@ type: page
 
 </div>
 
-    [📄 Download Paper](/uploads/lucalooser_cv.pdf)  
-    [📊 View Slides](/uploads/lucalooser_cv.pdf)
+[📄 Download Paper](/uploads/lucalooser_cv.pdf)  
+[📊 View Slides](/uploads/lucalooser_cv.pdf)
 
 ---
 
