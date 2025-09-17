@@ -15,12 +15,12 @@ type: page
     <strong>Title:</strong> My Job Market Paper  
     <p><strong>Abstract:</strong> This paper studies …</p>
 
-    [📄 Download Paper](/uploads/lucalooser_cv.pdf)  
-    [📊 View Slides](/uploads/lucalooser_cv.pdf)
   </div>
 
 </div>
 
+    [📄 Download Paper](/uploads/lucalooser_cv.pdf)  
+    [📊 View Slides](/uploads/lucalooser_cv.pdf)
 
 ---
 
