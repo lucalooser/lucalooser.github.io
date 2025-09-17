@@ -8,4 +8,4 @@ weight: 2
 **Abstract:**  
 This explores ...  
 
-[📄 Download Paper](/files/working-paper-a.pdf){ .btn .btn-primary target="_blank" }
+[📄 Download Paper](/files/working-paper-a.pdf)
