@@ -47,10 +47,10 @@ profiles:
   #- icon: academicons/orcid
   #  url: https://orcid.org/0000-0002-1825-0097
 
-interests:
-  - Macro Development
-  - Economic Geography
-  - Family Economics
+#interests:
+#  - Macro Development
+#  - Economic Geography
+#  - Family Economics
 
 #education:
 #  - area: PhD Economics
