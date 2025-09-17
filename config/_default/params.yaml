@@ -7,6 +7,9 @@
 appearance:
   mode: dark
   color: teal
+  font_size: s
+  theme_day: ocean
+  
 
 # SEO
 marketing:
@@ -34,6 +37,7 @@ header:
     fixed_to_top: true
     show_search: false
     show_theme_chooser: false
+    #font_size: m
     logo:
       text: 'Luca Looser'
 
@@ -58,3 +62,4 @@ features:
     enable: false
   privacy_pack:
     enable: false
+  font_size: s 
