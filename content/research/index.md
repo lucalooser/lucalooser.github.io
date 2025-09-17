@@ -5,13 +5,13 @@ type: page
 
 # Job Market Paper
 
-<div style="display: flex; align-items: flex-start; gap: 20px; margin-bottom: 2rem;">
+<div style="display: flex; align-items: flex-start; gap: 30px; margin: 0 auto 2rem auto; max-width: 1500px;">
 
-  <div style="flex: 1; max-width: 200px;">
+  <div style="flex: 1;">
     <img src="/uploads/DB_picture.png" alt="Job Market Paper image" style="max-width:100%; border-radius: 8px;">
   </div>
 
-  <div style="flex: 3;">
+  <div style="flex: 1;">
     <strong>Title:</strong> Escaping the Dust: The Second-Generation Effects of Droughts  
     <p><strong>Abstract:</strong> Climate change is expected to increase both the frequency and severity of droughts, yet, the long-run intergenerational effects of these environmental shocks remain understudied. This paper investigates the second-generation outcomes following the Dust Bowl (1931--1940), a major drought period, in the United States by leveraging the near-universe of children tracked over multiple decades. Exploiting the natural experiment created by heterogeneous exposure to soil erosion, I document that young children from agricultural families in affected regions decrease farming employment and enjoy higher income. Investigating the drivers, I find that the change out of farming is facilitated by: i) parental migration, ii) industrialization and iii) decreases in agricultural returns in affected regions. To interpret these findings, I develop a quantitative dynamic spatial general equilibrium model that captures the interplay between migration decisions and occupational choices. This framework is planed to be used to assess the long-term impacts of alternative policy interventions, contrasting the effectiveness of place-based versus individual-level policies.</p>
 
@@ -75,7 +75,7 @@ type: page
 <div style="display: flex; align-items: flex-start; gap: 20px; margin-bottom: 2rem;">
 
   <div style="flex: 1; max-width: 200px;">
-    <img src="/uploads/mignet.png" alt="Job Market Paper image" style="max-width:100%; border-radius: 8px;">
+    <img src="/uploads/mignet_picture.png" alt="Job Market Paper image" style="max-width:100%; border-radius: 8px;">
   </div>
 
   <div style="flex: 3;">
