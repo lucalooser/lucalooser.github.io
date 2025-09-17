@@ -29,7 +29,7 @@ type: page
 <div style="display: flex; align-items: flex-start; gap: 20px; margin-bottom: 2rem;">
 
   <div style="flex: 1; max-width: 200px;">
-    <img src="uploads/UGC_picture.png" alt="UGC_picture" style="max-width:100%; border-radius: 8px;">
+    <img src="/uploads/UGC_picture.png" alt="UGC_picture" style="max-width:100%; border-radius: 8px;">
   </div>
 
   <div style="flex: 3;">
