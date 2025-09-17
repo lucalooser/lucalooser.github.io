@@ -5,12 +5,22 @@ type: page
 
 # Job Market Paper
 
-**Title:** My Job Market Paper  
-**Abstract:**  
-This paper studies ...  
+<div style="display: flex; align-items: flex-start; gap: 20px; margin-bottom: 2rem;">
 
-[📄 Download Paper](uploads/lucalooser_cv.pdf)
-[📊 View Slides](uploads/lucalooser_cv.pdf)
+  <div style="flex: 1; max-width: 200px;">
+    <img src="/uploads/jobmarket.png" alt="Job Market Paper image" style="max-width:100%; border-radius: 8px;">
+  </div>
+
+  <div style="flex: 3;">
+    <strong>Title:</strong> My Job Market Paper  
+    <p><strong>Abstract:</strong> This paper studies …</p>
+
+    [📄 Download Paper](/uploads/lucalooser_cv.pdf)  
+    [📊 View Slides](/uploads/lucalooser_cv.pdf)
+  </div>
+
+</div>
+
 
 ---
 
