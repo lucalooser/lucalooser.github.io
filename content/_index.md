@@ -20,7 +20,7 @@ sections:
 #        education: ''
 #        interests: ''
       button:
-        text: Download JMP
+        text: JMP
         url: uploads/lucalooser_cv.pdf
     design:
       # Apply a gradient background
