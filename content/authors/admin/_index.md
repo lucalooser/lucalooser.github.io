@@ -52,25 +52,25 @@ interests:
   - Economic Geography
   - Family Economics
 
-education:
-  - area: PhD Economics
-    institution: Pompeu Fabra
-    date_start: 2027-07-31
-    date_end: 2021-09-01
-    summary: |
-    button:
-      text: 'Read Thesis'
-      url: 'https://example.com/thesis.pdf'
-  - area: MS Economics
-    institution: London School of Economics
-    date_start: 2020-09-01
-    date_end: 2021-07-31
-    summary: |
-  - area: BA Economics
-    institution: Universität St. Gallen
-    date_start: 2015-09-01
-    date_end: 2019-05-01
-    summary: |
+#education:
+#  - area: PhD Economics
+#    institution: Pompeu Fabra
+#    date_start: 2027-07-31
+#    date_end: 2021-09-01
+#    summary: |
+#    button:
+#      text: 'Read Thesis'
+#      url: 'https://example.com/thesis.pdf'
+#  - area: MS Economics
+#    institution: London School of Economics
+#    date_start: 2020-09-01
+#    date_end: 2021-07-31
+#    summary: |
+#  - area: BA Economics
+#    institution: Universität St. Gallen
+#    date_start: 2015-09-01
+#    date_end: 2019-05-01
+#    summary: |
 
 work:
   - position: Intern Inflation Forecasting
@@ -121,3 +121,5 @@ languages:
 ---
 
 Welcome to my Website! I am a fifth Year PhD Candidate in Economics at Universitat Pompeu Fabra. My research interests lie in Macro Development, Economic Geography and Family Economics.
+
+In my JMP I study...

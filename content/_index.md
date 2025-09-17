@@ -15,13 +15,13 @@ sections:
       username: admin
       text: ''
       # Show a call-to-action button under your biography? (optional)
-      button:
-        text: Download CV
-        url: uploads/lucalooser_cv.pdf
       headings:
         about: ''
-        education: ''
-        interests: ''
+#        education: ''
+#        interests: ''
+      button:
+        text: Download JMP
+        url: uploads/lucalooser_cv.pdf
     design:
       # Apply a gradient background
       css_class: hbx-bg-gradient
@@ -29,35 +29,35 @@ sections:
       avatar:
         size: medium # Options: small (150px), medium (200px, default), large (320px), xl (400px), xxl (500px)
         shape: circle # Options: circle (default), square, rounded
-  - block: markdown
-    content:
-      title: 'My Research'
-      subtitle: ''
-      text: |-
-        Research Summary
-    design:
-      columns: '1'
-  - block: collection
-    id: papers
-    content:
-      title: Featured Publications
-      filters:
-        folders:
-          - publication
-        featured_only: true
-    design:
-      view: article-grid
-      columns: 2
-  - block: collection
-    content:
-      title: Recent Publications
-      text: ''
-      filters:
-        folders:
-          - publication
-        exclude_featured: false
-    design:
-      view: citation
+#  - block: markdown
+#    content:
+#      title: 'My Research'
+#      subtitle: ''
+#      text: |-
+#        Research Summary
+#    design:
+#      columns: '1'
+#  - block: collection
+#    id: papers
+#    content:
+#      title: Featured Publications
+#      filters:
+#        folders:
+#          - publication
+#        featured_only: true
+#    design:
+#      view: article-grid
+#      columns: 2
+#  - block: collection
+#    content:
+#      title: Recent Publications
+#      text: ''
+#      filters:
+#        folders:
+#          - publication
+#        exclude_featured: false
+#    design:
+#      view: citation
   - block: collection
     id: talks
     content:
