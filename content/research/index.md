@@ -80,7 +80,7 @@ show_page_navigation: false
 
 ---
 
-# Work in Progress
+## Work in Progress
 
 <div style="display: flex; align-items: flex-start; gap: 20px; margin-bottom: 2rem;">
 
