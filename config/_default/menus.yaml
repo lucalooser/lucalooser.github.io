@@ -14,7 +14,7 @@ main:
     url: cv/
     weight: 12
   - name: Teaching
-    url: projects/
+    url: teaching/
     weight: 13
 #  - name: Contact
 #    url: contact/
