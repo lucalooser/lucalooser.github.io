@@ -6,9 +6,8 @@
 # Appearance
 appearance:
   mode: light
-  color: teal
+  color: blue
   font_size: s
-  theme_day: ocean
   
 
 # SEO
