@@ -6,7 +6,7 @@ reading_time: false
 show_date: false
 show_page_navigation: false
 ---
-# Teaching
+## Teaching
 
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; margin-top: 2rem;">
 

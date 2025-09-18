@@ -7,7 +7,7 @@ show_date: false
 show_page_navigation: false
 ---
 
-# Job Market Paper  
+## Job Market Paper  
 
 <div style="display: flex; align-items: flex-start; gap: 30px; margin: 0 auto 2rem auto; max-width: 1500px;">
 
@@ -31,7 +31,7 @@ show_page_navigation: false
 
 ---
 
-# Working Papers
+## Working Papers
 
 <div style="display: flex; align-items: flex-start; gap: 20px; margin-bottom: 2rem;">
 
