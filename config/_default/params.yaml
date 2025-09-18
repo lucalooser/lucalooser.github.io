@@ -5,8 +5,8 @@
 
 # Appearance
 appearance:
-  theme: minimal
-  color: blue
+  theme: retro
+  color: red
   font_size: s
   
 

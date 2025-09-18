@@ -1,0 +1,17 @@
+/* shrink homepage portrait */
+.avatar img {
+  max-width: 180px;
+}
+
+/* change title font */
+h1, .portrait-title h2 {
+  font-family: Georgia, serif;
+  font-size: 2rem;
+}
+
+/* card-like sections */
+.section {
+  background: #f9f9f9;
+  padding: 2rem;
+  border-radius: 12px;
+}
