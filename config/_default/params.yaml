@@ -37,6 +37,7 @@ header:
     fixed_to_top: true
     show_search: false
     show_theme_chooser: false
+    reading_time: false
     #font_size: m
     logo:
       text: 'Luca Looser'
@@ -63,3 +64,4 @@ features:
   privacy_pack:
     enable: false
   font_size: s 
+

@@ -1,6 +1,10 @@
 ---
 title: " "
 type: page
+toc: false
+reading_time: false
+show_date: false
+show_page_navigation: false
 ---
 # Teaching
 

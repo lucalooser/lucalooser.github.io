@@ -36,10 +36,6 @@ profiles:
   - icon: at-symbol
     url: 'mailto:luca.looser@upf.edu'
     label: E-mail Me
-  #- icon: brands/x
-  #  url: https://twitter.com/AlexAIResearch
-  #- icon: brands/github
-  #  url: https://github.com/alexjohnsonai
   - icon: brands/linkedin
     url: https://www.linkedin.com/in/lucalooser/
   #- icon: academicons/google-scholar

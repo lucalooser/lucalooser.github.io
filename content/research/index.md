@@ -1,9 +1,13 @@
 ---
 title: " "
 type: page
+toc: false
+reading_time: false
+show_date: false
+show_page_navigation: false
 ---
 
-# Job Market Paper
+# Job Market Paper  
 
 <div style="display: flex; align-items: flex-start; gap: 30px; margin: 0 auto 2rem auto; max-width: 1500px;">
 
@@ -12,15 +16,18 @@ type: page
   </div>
 
   <div style="flex: 1;">
-    <strong>Title:</strong> Escaping the Dust: The Second-Generation Effects of Droughts  
+    <strong>Title:</strong> 
+    <a href="/uploads/lucalooser_cv.pdf" target="_blank">
+      Escaping the Dust: The Second-Generation Effects of Droughts
+    </a>
     <p><strong>Abstract:</strong> Climate change is expected to increase both the frequency and severity of droughts, yet, the long-run intergenerational effects of these environmental shocks remain understudied. This paper investigates the second-generation outcomes following the Dust Bowl (1931--1940), a major drought period, in the United States by leveraging the near-universe of children tracked over multiple decades. Exploiting the natural experiment created by heterogeneous exposure to soil erosion, I document that young children from agricultural families in affected regions decrease farming employment and enjoy higher income. Investigating the drivers, I find that the change out of farming is facilitated by: i) parental migration, ii) industrialization and iii) decreases in agricultural returns in affected regions. To interpret these findings, I develop a quantitative dynamic spatial general equilibrium model that captures the interplay between migration decisions and occupational choices. This framework is planed to be used to assess the long-term impacts of alternative policy interventions, contrasting the effectiveness of place-based versus individual-level policies.</p>
 
   </div>
 
 </div>
 
-[📄 Download Paper](/uploads/lucalooser_cv.pdf)  
-[📊 View Slides](/uploads/lucalooser_cv.pdf)
+
+
 
 ---
 
@@ -33,7 +40,10 @@ type: page
   </div>
 
   <div style="flex: 3;">
-    <strong>Title:</strong> Unequal Global Convergence  
+  <strong>Title:</strong> 
+    <a href="/uploads/lucalooser_cv.pdf" target="_blank">
+      Unequal Global Convergence
+    </a>
     <br>
     <em>(joint with 
       <a href="https://pages.jh.edu/schatt20/" target="_blank">Shoumitro Chatterjee</a>, 
@@ -53,7 +63,10 @@ type: page
   </div>
 
   <div style="flex: 3;">
-    <strong>Title:</strong> The Intergenerational Benefits of a Temporary Negative Shock: Evidence from Import Restrictions in Thailand  
+    <strong>Title:</strong> 
+    <a href="/uploads/lucalooser_cv.pdf" target="_blank">
+      The Intergenerational Benefits of a Temporary Negative Shock: Evidence from Import Restrictions in Thailand
+    </a>
     <br>
     <em>(joint with Chanont Banternghansa, 
       <a href="https://sites.google.com/view/tkleineberg/home" target="_blank">Elisa Giannone</a>
@@ -62,9 +75,6 @@ type: page
   </div>
 
 </div>
-
-[📄 Download Paper](/uploads/lucalooser_cv.pdf)  
-[📊 View Slides](/uploads/lucalooser_cv.pdf)
 
 
 
@@ -79,16 +89,15 @@ type: page
   </div>
 
   <div style="flex: 3;">
-    <strong>Title:</strong> Family Ties and Migration Costs  
+      <strong>Title:</strong> 
+    <a href="/uploads/lucalooser_cv.pdf" target="_blank">
+      Family Ties and Migration Costs
+    </a> 
     <p><strong>Abstract:</strong> This paper studies …</p>
 
   </div>
 
 </div>
 
-[📄 Download Paper](/uploads/lucalooser_cv.pdf)  
-[📊 View Slides](/uploads/lucalooser_cv.pdf)
 
-**Title:** Draft Project  
-**Abstract:**  
-Preliminary results suggest ...  
+
