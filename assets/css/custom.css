@@ -1,17 +1,54 @@
-/* shrink homepage portrait */
-.avatar img {
-  max-width: 50px;
-}
-
-/* change title font */
-h1, .portrait-title h2 {
-  font-family: Georgia, serif;
-  font-size: 2rem;
-}
-
-/* card-like sections */
-.section {
+/* Change background and text look */
+body {
   background: #f9f9f9;
+  font-family: Georgia, serif;
+}
+
+/* Style homepage portrait + title */
+.avatar img {
+  max-width: 5px !important;   /* controls size */
+  height: auto !important;
+  border-radius: 50%;            /* keep circular look */
+}
+
+.portrait-title h2 {
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+/* Add card-like look to sections */
+.section {
+  background: white;
+  border: 1px solid #eee;
   padding: 2rem;
   border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(183, 24, 24, 0.05);
 }
+
+/* 2. Use Georgia everywhere */
+body, h1, h2, h3, h4, h5, h6, p, a, li, blockquote {
+  font-family: Georgia, serif !important;
+}
+
+body, h1, h2, h3, h4, h5, h6, p, li, blockquote {
+  font-family: Georgia, serif !important;
+  color: #000000 !important;
+}
+
+
+/* General button style (matches JMP button look) */
+.btn, .btn-primary, .btn-outline, .btn-lg, .btn-sm {
+  background-color: #1e40af !important; /* same blue as JMP button */
+  color: #ffffff !important;
+  border-radius: 6px !important;
+  border: none !important;
+  padding: 0.5rem 1rem;
+  text-decoration: none !important;
+}
+
+/* Hover effect */
+.btn:hover, .btn-primary:hover, .btn-outline:hover {
+  background-color: #1d4ed8 !important; /* slightly lighter blue */
+  color: #ffffff !important;
+}
+
