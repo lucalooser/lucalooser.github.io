@@ -5,9 +5,10 @@
 
 # Appearance
 appearance:
-  theme: retro
+  theme: minimal
   color: red
   font_size: s
+  custom_css: ["css/custom.css"]
   
 
 # SEO
