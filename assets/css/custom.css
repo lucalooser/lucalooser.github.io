@@ -52,3 +52,32 @@ body, h1, h2, h3, h4, h5, h6, p, li, blockquote {
   color: #ffffff !important;
 }
 
+
+
+/* On hover, make them dark gray instead of white/blue */
+a:hover, a:focus {
+  color: #333333 !important;
+}
+
+/* Research section text should all be black */
+.research-section {
+  color: #000000 !important;
+  font-family: Georgia, serif !important;
+}
+
+/* Research section links */
+.research-section a,
+.research-section a:visited {
+  color: #000000 !important;
+  text-decoration: underline;
+}
+.research-section a:hover {
+  color: #333333 !important;
+}
+
+/* Force "Title:" and "Abstract:" (strong tags) to black */
+.research-section strong {
+  color: #000000 !important;
+  font-weight: bold !important;
+}
+

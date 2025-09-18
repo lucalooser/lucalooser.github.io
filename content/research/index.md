@@ -7,24 +7,45 @@ show_date: false
 show_page_navigation: false
 ---
 
+<div class="research-section">
+
 ## Job Market Paper  
 
-<div style="display: flex; align-items: flex-start; gap: 30px; margin: 0 auto 2rem auto; max-width: 1500px;">
 
-  <div style="flex: 1;">
-    <img src="/uploads/DB_picture.png" alt="Job Market Paper image" style="max-width:100%; border-radius: 8px;">
+<div style="max-width:100%; margin:0 auto; padding:0 20px; color:#000; font-family: Georgia, serif;">
+
+  <!-- Center the image -->
+  <div style="text-align: center; margin-bottom: 1.5rem;">
+    <img src="/uploads/DB_picture.png" alt="Job Market Paper image"
+         style="max-width:60%; height:auto; border-radius:8px; display:inline-block;">
   </div>
 
-  <div style="flex: 1;">
-    <strong>Title:</strong> 
-    <a href="/uploads/lucalooser_cv.pdf" target="_blank">
+  <!-- Text block -->
+  <div style="color:#000;">
+    <strong>Title:</strong>
+    <a href="/uploads/lucalooser_cv.pdf" target="_blank" style="color:#000; text-decoration:underline;">
       Escaping the Dust: The Second-Generation Effects of Droughts
     </a>
-    <p><strong>Abstract:</strong> Climate change is expected to increase both the frequency and severity of droughts, yet, the long-run intergenerational effects of these environmental shocks remain understudied. This paper investigates the second-generation outcomes following the Dust Bowl (1931--1940), a major drought period, in the United States by leveraging the near-universe of children tracked over multiple decades. Exploiting the natural experiment created by heterogeneous exposure to soil erosion, I document that young children from agricultural families in affected regions decrease farming employment and enjoy higher income. Investigating the drivers, I find that the change out of farming is facilitated by: i) parental migration, ii) industrialization and iii) decreases in agricultural returns in affected regions. To interpret these findings, I develop a quantitative dynamic spatial general equilibrium model that captures the interplay between migration decisions and occupational choices. This framework is planed to be used to assess the long-term impacts of alternative policy interventions, contrasting the effectiveness of place-based versus individual-level policies.</p>
-
+    <p>
+      <strong>Abstract:</strong>
+      Climate change is expected to increase both the frequency and severity of droughts, yet,
+      the long-run intergenerational effects of these environmental shocks remain understudied.
+      This paper investigates the second-generation outcomes following the Dust Bowl (1931–1940),
+      a major drought period, in the United States by leveraging the near-universe of children
+      tracked over multiple decades. Exploiting the natural experiment created by heterogeneous
+      exposure to soil erosion, I document that young children from agricultural families in
+      affected regions decrease farming employment and enjoy higher income. Investigating the
+      drivers, I find that the change out of farming is facilitated by: i) parental migration,
+      ii) industrialization and iii) decreases in agricultural returns in affected regions.
+      To interpret these findings, I develop a quantitative dynamic spatial general equilibrium
+      model that captures the interplay between migration decisions and occupational choices.
+      This framework is planned to be used to assess the long-term impacts of alternative policy
+      interventions, contrasting the effectiveness of place-based versus individual-level policies.
+    </p>
   </div>
 
 </div>
+
 
 
 
@@ -33,12 +54,13 @@ show_page_navigation: false
 
 ## Working Papers
 
-<div style="display: flex; align-items: flex-start; gap: 20px; margin-bottom: 2rem;">
+<div style="max-width:100%; margin:0 auto; padding:0 20px; color:#000; font-family: Georgia, serif;">
 
-  <div style="flex: 1; max-width: 200px;">
-    <img src="/uploads/UGC_picture.png" alt="UGC_picture" style="max-width:100%; border-radius: 8px;">
+  <!-- Center the image -->
+  <div style="text-align: center; margin-bottom: 0rem;">
+    <img src="/uploads/UGC_picture.png" alt="UGC Paper image"
+         style="max-width:60%; height:auto; border-radius:8px; display:inline-block;">
   </div>
-
   <div style="flex: 3;">
   <strong>Title:</strong> 
     <a href="/uploads/lucalooser_cv.pdf" target="_blank">
@@ -56,10 +78,14 @@ show_page_navigation: false
 
 </div>
 
-<div style="display: flex; align-items: flex-start; gap: 20px; margin-bottom: 2rem;">
+---
 
-  <div style="flex: 1; max-width: 200px;">
-    <img src="/uploads/Shrimp_picture.png" alt="Job Market Paper image" style="max-width:100%; border-radius: 8px;">
+<div style="max-width:100%; margin:0 auto; padding:0 20px; color:#000; font-family: Georgia, serif;">
+
+  <!-- Center the image -->
+  <div style="text-align: center; margin-bottom: 1.5rem;">
+    <img src="/uploads/Shrimp_picture.png" alt="Job Market Paper image"
+         style="max-width:60%; height:auto; border-radius:8px; display:inline-block;">
   </div>
 
   <div style="flex: 3;">
@@ -82,10 +108,12 @@ show_page_navigation: false
 
 ## Work in Progress
 
-<div style="display: flex; align-items: flex-start; gap: 20px; margin-bottom: 2rem;">
+<div style="max-width:100%; margin:0 auto; padding:0 20px; color:#000; font-family: Georgia, serif;">
 
-  <div style="flex: 1; max-width: 200px;">
-    <img src="/uploads/mignet_picture.png" alt="Job Market Paper image" style="max-width:100%; border-radius: 8px;">
+  <!-- Center the image -->
+  <div style="text-align: center; margin-bottom: 1.5rem;">
+    <img src="/uploads/mignet_picture.png" alt="Job Market Paper image"
+         style="max-width:60%; height:auto; border-radius:8px; display:inline-block;">
   </div>
 
   <div style="flex: 3;">
@@ -99,5 +127,5 @@ show_page_navigation: false
 
 </div>
 
-
+</div>
 
