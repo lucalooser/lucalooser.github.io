@@ -4,12 +4,30 @@ body {
   font-family: Georgia, serif;
 }
 
-/* Style homepage portrait + title */
-.avatar img {
-  max-width: 5px !important;   /* controls size */
+/* Center avatar */
+.avatar {
+  max-width: 250px !important;
   height: auto !important;
-  border-radius: 50%;            /* keep circular look */
+  margin: 0 auto !important;   /* center horizontally */
+  display: block !important;   /* ensure centering works */
 }
+
+/* Center the biography block */
+
+/* Reduce spacing on homepage */
+.home-section:first-of-type {
+  padding-top: 0 !important;   /* remove large top padding */
+  margin-top: 0 !important;
+}
+
+/* Sometimes Hugo Blox adds padding via container */
+.home-section:first-of-type .container {
+  padding-top: 0 !important;
+  margin-top: 0 !important;
+}
+
+
+
 
 .portrait-title h2 {
   font-size: 1.8rem;

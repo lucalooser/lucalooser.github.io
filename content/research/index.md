@@ -9,7 +9,7 @@ show_page_navigation: false
 
 <div class="research-section">
 
-## Job Market Paper  
+<h2 style="text-align:center;">Job Market Paper</h2>
 
 
 <div style="max-width:100%; margin:0 auto; padding:0 20px; color:#000; font-family: Georgia, serif;">
@@ -52,7 +52,7 @@ show_page_navigation: false
 
 ---
 
-## Working Papers
+<h2 style="text-align:center;">Working Papers</h2>
 
 <div style="max-width:100%; margin:0 auto; padding:0 20px; color:#000; font-family: Georgia, serif;">
 
@@ -106,7 +106,7 @@ show_page_navigation: false
 
 ---
 
-## Work in Progress
+<h2 style="text-align:center;">Work in Progress</h2>
 
 <div style="max-width:100%; margin:0 auto; padding:0 20px; color:#000; font-family: Georgia, serif;">
 

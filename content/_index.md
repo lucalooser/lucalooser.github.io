@@ -5,8 +5,9 @@ date: 2022-10-24
 type: landing
 
 design:
-  # Default section spacing
-  spacing: '0rem'
+  spacing: '0rem'   # already in your file
+  css_style: "padding-top: 1rem; padding-bottom: 1rem;" 
+
 
 sections:
   - block: resume-biography-3
