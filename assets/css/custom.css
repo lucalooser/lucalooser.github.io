@@ -12,37 +12,11 @@ body {
   display: block !important;   /* ensure centering works */
 }
 
-/* Reduce top spacing on homepage landing section */
-#wb-home, 
-body.landing .block--resume-biography-3 {
-  padding-top: 1rem !important;  /* reduce top padding */
-  margin-top: 0 !important;      /* kill extra margin */
-}
 
-/* Move avatar and bio text upwards */
-.resume-biography-3 .avatar,
-.resume-biography-3 .bio {
-  margin-top: -3rem !important;  /* pull content up */
-}
-
-/* Optional: shrink spacing between "Welcome!" and bio text */
-.resume-biography-3 .headings {
-  margin-bottom: 0.5rem !important;
-}
 
 /* Center the biography block */
 
-/* Reduce spacing on homepage */
-.home-section:first-of-type {
-  padding-top: 0 !important;   /* remove large top padding */
-  margin-top: 0 !important;
-}
 
-/* Sometimes Hugo Blox adds padding via container */
-.home-section:first-of-type .container {
-  padding-top: 0 !important;
-  margin-top: 0 !important;
-}
 
 
 
@@ -117,3 +91,18 @@ a:hover, a:focus {
   font-weight: bold !important;
 }
 
+
+
+/* ========== AGGRESSIVE HOMEPAGE / AVATAR OVERRIDES ========== */
+
+/* Force the landing resume block to sit higher */
+.block--resume-biography-3,
+.resume-biography,
+.block.resume-biography-3,
+.hb-block--resume-biography-3,
+.landing .block--resume-biography-3,
+.home-section.first-of_type,
+.landing-section.first-of-type {
+  padding-top: 4px !important;
+  margin-top: 4px !important;    /* pull up the whole block */
+}
