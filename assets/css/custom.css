@@ -12,6 +12,24 @@ body {
   display: block !important;   /* ensure centering works */
 }
 
+/* Reduce top spacing on homepage landing section */
+#wb-home, 
+body.landing .block--resume-biography-3 {
+  padding-top: 1rem !important;  /* reduce top padding */
+  margin-top: 0 !important;      /* kill extra margin */
+}
+
+/* Move avatar and bio text upwards */
+.resume-biography-3 .avatar,
+.resume-biography-3 .bio {
+  margin-top: -3rem !important;  /* pull content up */
+}
+
+/* Optional: shrink spacing between "Welcome!" and bio text */
+.resume-biography-3 .headings {
+  margin-bottom: 0.5rem !important;
+}
+
 /* Center the biography block */
 
 /* Reduce spacing on homepage */
