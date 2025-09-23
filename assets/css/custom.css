@@ -110,7 +110,28 @@ a:hover, a:focus {
 
 
 
-/* ====== Move name + role ABOVE avatar ====== */
+/* ====== Move name ====== */
 
 /* Tighten spacing **only** around homepage avatar + name + bio (aggressive but scoped) */
 
+/* ===== Adjust name and role under avatar ===== */
+
+/* Make the name (title) smaller */
+.author-name,
+.block--resume-biography-3 .author-name {
+  font-size: 1.1rem !important;  /* default is ~2rem, try 1.4–1.6 */
+  margin-top: 0.0rem !important; /* pulls text closer to the avatar */
+  margin-bottom: 0.2rem !important;
+  color: #000 !important;        /* ensure it's black */
+  line-height: 1.1 !important;
+}
+
+/* Make the role ("PhD Candidate in Economics") a bit smaller and closer */
+.author-role,
+.block--resume-biography-3 .author-role {
+  font-size: 1rem !important;    /* default is ~1.2rem */
+  margin-top: 0 !important;
+  margin-bottom: 0.4rem !important;
+  color: #000 !important;
+  line-height: 1.2 !important;
+}
