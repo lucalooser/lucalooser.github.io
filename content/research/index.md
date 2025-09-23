@@ -8,25 +8,36 @@ show_page_navigation: false
 ---
 
 <style>
-/* hide the right-hand TOC completely */
+/* Research page full-width override */
+
+/* reset main container so content is full-width */
+main,
+.site-main,
+.wrapper,
+.page,
+.hb-content,
+.article,
+article {
+  margin: 0 !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  max-width: 100% !important;
+  width: 100% !important;
+  display: block !important;
+}
+
+/* nuke the white TOC / sidebar completely */
 nav.hb-toc,
 aside.hb-sidebar-container {
   display: none !important;
-}
-
-/* make the flex container treat the article as full-width */
-main > div.flex {
-  display: block !important;   /* break out of two-column flex */
-}
-
-/* expand the article wrapper */
-article {
-  max-width: 100% !important;
-  width: 100% !important;
-  margin: 0 auto !important;
-  padding: 0 200px !important;  /* small gutter */
+  width: 0 !important;
+  max-width: 0 !important;
+  padding: 0 !important;
+  margin: 0 !important;
 }
 </style>
+
+
 
 
 

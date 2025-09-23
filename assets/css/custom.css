@@ -170,12 +170,6 @@ header nav a {
 }
 
 
-/* Make research section wider */
-.research-section {
-  max-width: 2000px;
-  margin: 0 auto;
-  padding: 0 10px;  /* smaller side margins */
-}
 
 /* Adjust research items */
 .research-item img {
@@ -221,23 +215,9 @@ header nav a {
   max-width: 100% !important;
 }
 
-/* 3) Layout: keep sidebar but make it narrower and give content more room */
-.hb-layout, .site-layout, .layout, .hb-grid {
-  display: grid !important;
-  grid-template-columns: 1740px 1fr !important; /* sidebar 240px, content flexible */
-  gap: 0px !important;
-  align-items: start !important;
-}
 
-/* If a specific wrapper holds the sidebar and content, target it too */
-.hb-sidebar-container + .hb-content,
-aside.hb-sidebar-container ~ .hb-content,
-.hb-sidebar-container ~ .main,
-.hb-sidebar-container ~ .site-main {
-  display: grid !important;
-  grid-template-columns: 740px 1fr !important;
-  gap: 0px !important;
-}
+
+
 
 /* 4) Ensure main article area uses remaining width (fallback) */
 article, main, .content-area, .site-main > .container {
@@ -269,14 +249,7 @@ article, main, .content-area, .site-main > .container {
   padding-right: 0px !important;
 }
 
-/* 7) Optional: make research section use almost entire width but keep gutters */
-.research-section, .research-item, .research-list {
-  max-width: 1800px !important;  /* tweak value as you like */
-  margin-left: auto !important;
-  margin-right: auto !important;
-  padding-left: 0px !important;
-  padding-right: 0px !important;
-}
+
 
 
 /* ===== research page — full-bleed wrapper to reduce side gutters ===== */
@@ -292,11 +265,11 @@ article, main, .content-area, .site-main > .container {
   max-width: 100vw;
   box-sizing: border-box;
 
-  /*LULOO: THIS HAS TO CHANGE!!  */
+  /*LULOO: THIS HAS TO CHANGE!!  have 60px each before*/
   /* IMPORTANT: left padding must leave room for the sidebar.
      Your sidebar appears to be ~16rem (w-64, = 256px). Adjust if needed. */
-  padding-left: 60px;   /* <-- tweak this number if your sidebar is wider/narrower */
-  padding-right: 60px;   /* small right gutter */
+  padding-left: 16rem;   /* <-- tweak this number if your sidebar is wider/narrower */
+  padding-right: 0rem;   /* small right gutter */
 }
 
 /* keep things responsive: on small screens revert to normal flow */
@@ -313,19 +286,7 @@ article, main, .content-area, .site-main > .container {
   }
 }
 
-/* tighten research-item layout and allow it to use more horizontal space */
-.research-item {
-  max-width: 1200px;          /* content column max, tweak as desired */
-  margin-left: 0;             /* child is aligned inside the full-bleed wrapper */
-  margin-right: 0;
-}
 
-/* general polishing for research items */
-.research-item img {
-  max-width: 100%;
-  height: auto;
-  border-radius: 8px;
-}
 
 /* typography */
 .research-item h3 { margin-top:0; font-size:1.25rem; color:#000; }
