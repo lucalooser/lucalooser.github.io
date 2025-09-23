@@ -292,6 +292,7 @@ article, main, .content-area, .site-main > .container {
   max-width: 100vw;
   box-sizing: border-box;
 
+  /*LULOO: THIS HAS TO CHANGE!!  */
   /* IMPORTANT: left padding must leave room for the sidebar.
      Your sidebar appears to be ~16rem (w-64, = 256px). Adjust if needed. */
   padding-left: 60px;   /* <-- tweak this number if your sidebar is wider/narrower */

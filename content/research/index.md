@@ -10,17 +10,19 @@ show_page_navigation: false
 <!-- BEGIN: full-bleed wrapper for research page -->
 <div class="research-fullwidth-wrapper">
 
+<h2 style="text-align:center;">Job Market Paper</h2>
+
 <div class="research-item" style="display: flex; flex-wrap: wrap; align-items: flex-start; gap: 0rem; margin-bottom: 0rem; max-width: 1200px; margin-left: 0rem; margin-right: 0rem;">
 
   <!-- Left: Image -->
-  <div style="flex: 0 0 35%; max-width: 35%; text-align: center;">
+  <div style="flex: 0 0 35%; max-width: 25%; text-align: center;">
     <img src="/uploads/DB_picture.png" 
          alt="Job Market Paper image"
          style="width: 100%; height: auto; border-radius: 8px;">
   </div>
 
   <!-- Right: Text -->
-  <div style="flex: 1; color:#000; font-family: Georgia, serif;">
+  <div style="flex: 1; color:#000; font-family: Georgia, serif; ">
     <h3 style="margin-top: 0;">Escaping the Dust: The Second-Generation Effects of Droughts</h3>
     <p><strong>Authors:</strong> Luca Looser</p>
     <p>
