@@ -104,5 +104,13 @@ a:hover, a:focus {
 .home-section.first-of_type,
 .landing-section.first-of-type {
   padding-top: 4px !important;
-  margin-top: 4px !important;    /* pull up the whole block */
+  margin-top: 60px !important;    /* pull up the whole block */
 }
+
+
+
+
+/* ====== Move name + role ABOVE avatar ====== */
+
+/* Tighten spacing **only** around homepage avatar + name + bio (aggressive but scoped) */
+
