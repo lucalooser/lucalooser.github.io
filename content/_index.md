@@ -6,7 +6,7 @@ type: landing
 
 design:
   spacing: '0rem'   # already in your file
-  css_style: "padding-top: 1rem; padding-bottom: 1rem;" 
+  css_style: "padding-top: 0rem; padding-bottom: 0rem;" 
 
 
 sections:
@@ -114,7 +114,8 @@ sections:
     #    url: https://hugoblox.com/templates/
     design:
       card:
-        # Card background color (CSS class)
-        css_class: 'bg-primary-700'
-        css_style: ''
+  #      # Card background color (CSS class)
+  #      css_class: 'bg-primary-700'
+  #      css_style: ''
+        css_style: 'custom.css'
 ---

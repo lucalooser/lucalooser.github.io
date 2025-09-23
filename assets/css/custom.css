@@ -114,24 +114,68 @@ a:hover, a:focus {
 
 /* Tighten spacing **only** around homepage avatar + name + bio (aggressive but scoped) */
 
-/* ===== Adjust name and role under avatar ===== */
+/* === Force smaller name and closer spacing under avatar === */
 
-/* Make the name (title) smaller */
-.author-name,
-.block--resume-biography-3 .author-name {
-  font-size: 1.1rem !important;  /* default is ~2rem, try 1.4–1.6 */
-  margin-top: 0.0rem !important; /* pulls text closer to the avatar */
+/* Target the name under the avatar */
+.landing .block--resume-biography-3 .author-name {
+  font-size: 1.6rem !important;   /* smaller than default (~2rem) */
+  margin-top: 0.2rem !important;  /* bring it closer to the avatar */
   margin-bottom: 0.2rem !important;
-  color: #000 !important;        /* ensure it's black */
   line-height: 1.1 !important;
+  color: #000 !important;
+  text-align: center !important;  /* keeps it centered under picture */
 }
 
-/* Make the role ("PhD Candidate in Economics") a bit smaller and closer */
-.author-role,
-.block--resume-biography-3 .author-role {
-  font-size: 1rem !important;    /* default is ~1.2rem */
-  margin-top: 0 !important;
-  margin-bottom: 0.4rem !important;
-  color: #000 !important;
+/* Target the role (PhD Candidate in Economics) */
+.landing .block--resume-biography-3 .author-role {
+  font-size: 1rem !important;     /* smaller than default */
+  margin-top: 0 !important;       /* reduce whitespace */
+  margin-bottom: 0.2rem !important;
   line-height: 1.2 !important;
+  color: #000 !important;
+  text-align: center !important;
+}
+
+
+/* === Shrink and tighten homepage name/role === */
+
+/* Name */
+h1.text-5xl {
+  font-size: 2rem !important;       /* smaller font */
+  margin-bottom: 0.2rem !important; /* less space below */
+  line-height: 1.2 !important;
+}
+
+/* Role */
+p.text-2xl {
+  font-size: 1.1rem !important;     /* smaller role text */
+  margin-top: 0.1rem !important;    /* bring closer to name */
+  margin-bottom: 0.5rem !important; /* less gap above picture */
+  line-height: 1.2 !important;
+}
+
+.avatar-wrapper{
+  margin-bottom: 0 !important;
+}
+
+
+/* Navigation bar background to white */
+.site-header,
+.navbar,
+.navbar-default {
+  background-color: #ffffff !important;
+}
+
+/* Navigation links to black */
+.site-header .navbar-nav .nav-link,
+.navbar .nav-link,
+.navbar-default .navbar-nav > li > a {
+  color: #000000 !important;
+}
+
+/* Active/hover states */
+.site-header .navbar-nav .nav-link:hover,
+.navbar .nav-link:hover,
+.navbar-default .navbar-nav > li > a:hover {
+  color: #444444 !important; /* slightly lighter on hover */
 }
