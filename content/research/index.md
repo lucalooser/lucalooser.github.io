@@ -6,14 +6,30 @@ reading_time: false
 show_date: false
 show_page_navigation: false
 ---
-<!-- Page-scoped CSS: hide right TOC, expand main content, remove left gap -->
+
 <style>
-/* hide the right-hand TOC / sidebar on this page */
+/* hide the right-hand TOC completely */
 nav.hb-toc,
 aside.hb-sidebar-container {
   display: none !important;
 }
+
+/* make the flex container treat the article as full-width */
+main > div.flex {
+  display: block !important;   /* break out of two-column flex */
+}
+
+/* expand the article wrapper */
+article {
+  max-width: 100% !important;
+  width: 100% !important;
+  margin: 0 auto !important;
+  padding: 0 200px !important;  /* small gutter */
+}
 </style>
+
+
+
 
 <!-- BEGIN: full-bleed wrapper for research page -->
 <div class="research-fullwidth-wrapper">
@@ -69,8 +85,7 @@ aside.hb-sidebar-container {
         <a href="https://pages.jh.edu/schatt20/" target="_blank" style="color:#000;">Shoumitro Chatterjee</a>, 
         <a href="https://sites.google.com/view/elisagiannone/" target="_blank" style="color:#000;">Elisa Giannone</a>, 
         <a href="https://sites.google.com/view/tkleineberg/home" target="_blank" style="color:#000;">Tatjana Kleineberg</a>, 
-        <a href="https://kankuno.github.io/" target="_blank" style="color:#000;">Kan Kuno</a>
-      )</em>
+        <a href="https://kankuno.github.io/" target="_blank" style="color:#000;">Kan Kuno</a>)</em>
     </p>
     <p style="color:#000; margin-top:0.5rem;">
       <strong style="color:#000;">Abstract:</strong> We revisit a classical question: what is the role of structural transformation in determining regional convergence? To do so, we construct a novel global dataset of regional GDPs and granular sectoral employment for more than 1500 regions and more than 90 countries, which starts in 1980 and covers a large range of income spectrum. We document three main facts. First, regional convergence within countries decreases over time around the globe and stalls in the most recent decade despite residual spatial inequality. Second, this decline in regional convergence is associated with structural transformation toward high-skill services. Third, high-skill service employment exhibits a higher regional concentration than other sectors, including other services, manufacturing, or agriculture. Through the lens of a spatial equilibrium model which embeds the standard drivers of structural change, we find a reinforcing interplay between structural change and spatial development. As an economy transforms toward high-skill services, regional convergence declines due to agglomeration effects in the high-skill service sector. Agglomeration effects increase economic growth which further accelerates structural change toward services and, in turn, widens unequal regional dynamics.
@@ -95,8 +110,7 @@ aside.hb-sidebar-container {
     <h3 style="margin-top: 0; color:#000; font-size:1.2rem;">The Intergenerational Benefits of a Temporary Negative Shock: Evidence from Import Restrictions in Thailand</h3>
     <p style="color:#000; margin-top:0.5rem;">
       <em>(joint with Chanont Banternghansa, 
-        <a href="https://sites.google.com/view/tkleineberg/home" target="_blank" style="color:#000;">Elisa Giannone</a>
-      )</em>
+        <a href="https://sites.google.com/view/tkleineberg/home" target="_blank" style="color:#000;">Elisa Giannone</a>)</em>
     </p>
     <p style="color:#000; margin-top:0.5rem;">
       <strong style="color:#000;">Abstract:</strong> We exploit a small, transitory and sector-specific shock in Thailand and find that it has large, heterogeneous and long-lasting effects by inducing permanent sectoral reallocation. We also provide evidence of causal spillover effects to the rest of the economy. Such temporary and negative demand shock pushes out permanently the worst sorted and less wealthy workers in a sector, turning into a “gift” to the stayers, who gain larger income and market power after the shock. By looking at the education outcomes, however, we find that the shock is a “gift” to the education of the young in the leavers’ family but not for the young in the stayers’ families. Combining the EU ban on black tiger shrimps with detailed household data from the Townsend Thai Project, we investigate the resource reallocation within and across sectors, changes in sectoral productivity and welfare within Thailand. We find that: 1) shrimp farmers experience a loss of income of $10, 500 or 50% of their pre-ban income level; 2) their income recover after 5-6 years to pre-ban levels; 3) shrimp farmers are more likely to transition to other sectors even after 10 years; 4) they accumulate assets in new sectors; 5) there are significant spillover effects on local income and sectoral reallocation for non-shrimp farmers; 6) stayers in the sector “gain” in the long-term income but young members of households that left the shrimp sector “gain” in education creating motive for intergenerational mobility.
