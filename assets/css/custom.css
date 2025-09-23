@@ -159,23 +159,13 @@ p.text-2xl {
 }
 
 
-/* Navigation bar background to white */
-.site-header,
-.navbar,
-.navbar-default {
+/* Tailwind-style nav bar override */
+header,
+nav {
   background-color: #ffffff !important;
 }
 
-/* Navigation links to black */
-.site-header .navbar-nav .nav-link,
-.navbar .nav-link,
-.navbar-default .navbar-nav > li > a {
+header nav a {
   color: #000000 !important;
 }
 
-/* Active/hover states */
-.site-header .navbar-nav .nav-link:hover,
-.navbar .nav-link:hover,
-.navbar-default .navbar-nav > li > a:hover {
-  color: #444444 !important; /* slightly lighter on hover */
-}
