@@ -20,9 +20,9 @@ sections:
         about: 'Welcome!'
 #        education: ''
 #        interests: ''
-      button:
-        text: JMP
-        url: uploads/lucalooser_cv.pdf
+#      button:
+#        text: JMP
+#        url: uploads/lucalooser_cv.pdf
     design:
       # Apply a gradient background
       css_class: hbx-bg-gradient

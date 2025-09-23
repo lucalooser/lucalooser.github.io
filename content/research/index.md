@@ -6,6 +6,14 @@ reading_time: false
 show_date: false
 show_page_navigation: false
 ---
+<!-- Page-scoped CSS: hide right TOC, expand main content, remove left gap -->
+<style>
+/* hide the right-hand TOC / sidebar on this page */
+nav.hb-toc,
+aside.hb-sidebar-container {
+  display: none !important;
+}
+</style>
 
 <!-- BEGIN: full-bleed wrapper for research page -->
 <div class="research-fullwidth-wrapper">

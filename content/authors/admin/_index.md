@@ -118,4 +118,4 @@ languages:
 
 I am a fifth Year PhD Candidate in Economics at Universitat Pompeu Fabra. My research is at the intersection of Macro Development, Economic Geography and Family Economics. In particular, I am interested in studying the role of families and children during the process of structural transformation.
 
-In my JMP I study...
+I am expected to go on the academic job market in 2025-2026
