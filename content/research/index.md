@@ -7,44 +7,30 @@ show_date: false
 show_page_navigation: false
 ---
 
-<div class="research-section">
+<!-- BEGIN: full-bleed wrapper for research page -->
+<div class="research-fullwidth-wrapper">
 
-<h2 style="text-align:center;">Job Market Paper</h2>
+<div class="research-item" style="display: flex; flex-wrap: wrap; align-items: flex-start; gap: 0rem; margin-bottom: 0rem; max-width: 1200px; margin-left: 0rem; margin-right: 0rem;">
 
-
-<div style="max-width:100%; margin:0 auto; padding:0 20px; color:#000; font-family: Georgia, serif;">
-
-  <!-- Center the image -->
-  <div style="text-align: center; margin-bottom: 1.5rem;">
-    <img src="/uploads/DB_picture.png" alt="Job Market Paper image"
-         style="max-width:60%; height:auto; border-radius:8px; display:inline-block;">
+  <!-- Left: Image -->
+  <div style="flex: 0 0 35%; max-width: 35%; text-align: center;">
+    <img src="/uploads/DB_picture.png" 
+         alt="Job Market Paper image"
+         style="width: 100%; height: auto; border-radius: 8px;">
   </div>
 
-  <!-- Text block -->
-  <div style="color:#000;">
-    <strong>Title:</strong>
-    <a href="/uploads/lucalooser_cv.pdf" target="_blank" style="color:#000; text-decoration:underline;">
-      Escaping the Dust: The Second-Generation Effects of Droughts
-    </a>
+  <!-- Right: Text -->
+  <div style="flex: 1; color:#000; font-family: Georgia, serif;">
+    <h3 style="margin-top: 0;">Escaping the Dust: The Second-Generation Effects of Droughts</h3>
+    <p><strong>Authors:</strong> Luca Looser</p>
     <p>
-      <strong>Abstract:</strong>
-      Climate change is expected to increase both the frequency and severity of droughts, yet,
-      the long-run intergenerational effects of these environmental shocks remain understudied.
-      This paper investigates the second-generation outcomes following the Dust Bowl (1931–1940),
-      a major drought period, in the United States by leveraging the near-universe of children
-      tracked over multiple decades. Exploiting the natural experiment created by heterogeneous
-      exposure to soil erosion, I document that young children from agricultural families in
-      affected regions decrease farming employment and enjoy higher income. Investigating the
-      drivers, I find that the change out of farming is facilitated by: i) parental migration,
-      ii) industrialization and iii) decreases in agricultural returns in affected regions.
-      To interpret these findings, I develop a quantitative dynamic spatial general equilibrium
-      model that captures the interplay between migration decisions and occupational choices.
-      This framework is planned to be used to assess the long-term impacts of alternative policy
-      interventions, contrasting the effectiveness of place-based versus individual-level policies.
+      <strong>Abstract:</strong> Climate change is expected to increase both the frequency and severity of droughts, yet, the long-run intergenerational effects of these environmental shocks remain understudied. This paper investigates the second-generation outcomes following the Dust Bowl (1931–1940), a major drought period, in the United States by leveraging the near-universe of children tracked over multiple decades. Exploiting the natural experiment created by heterogeneous exposure to soil erosion, I document that young children from agricultural families in affected regions decrease farming employment and enjoy higher income. Investigating the drivers, I find that the change out of farming is facilitated by: i) parental migration, ii) industrialization and iii) decreases in agricultural returns in affected regions. To interpret these findings, I develop a quantitative dynamic spatial general equilibrium model that captures the interplay between migration decisions and occupational choices. This framework is planned to be used to assess the long-term impacts of alternative policy interventions, contrasting the effectiveness of place-based versus individual-level policies.
     </p>
   </div>
 
 </div>
+
+
 
 
 
