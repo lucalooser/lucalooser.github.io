@@ -295,4 +295,56 @@ article, main, .content-area, .site-main > .container {
 /* OPTIONAL: slightly narrow the sidebar visually (if you want more content space) */
 /* aside.hb-sidebar-container { width: 240px !important; } */
 
+/* Center research page content properly */
+.hb-content,
+.site-main,
+.page,
+.article,
+.wrapper {
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
 
+/* take out social media icons*/ 
+/* Hide bottom social share icons */
+section.flex.flex-row.flex-wrap.justify-center.pt-4.text-xl {
+  display: none !important;
+}
+
+
+
+
+/* adjust for media*/ 
+/* Desktop: image ~35%, text ~65% */
+.research-item img {
+  flex: 0 0 95% !important;
+  max-width: 95% !important;
+}
+
+/* Text takes remaining space */
+.research-item div {
+  flex: 1 !important;
+}
+
+/* On tablets/phones: stack */
+@media (max-width: 768px) {
+  .research-item {
+    flex-direction: column !important;
+  }
+  .research-item img {
+    max-width: 100% !important;
+    flex: none !important;
+    margin-bottom: 1rem !important;
+  }
+}
+
+/* remove arrows and line*/
+/* Hide bottom divider line + prev/next arrows */
+div.pt-1.no-prose.w-full {
+  display: none !important;
+}
+
+/* Remove Hugo Blox footer credits */
+footer .powered-by {
+  display: none !important;
+}

@@ -57,15 +57,22 @@ aside.hb-sidebar-container {
          style="width: 100%; height: auto; border-radius: 8px;">
   </div>
 
-  <!-- Right: Text -->
-  <div style="flex: 1; color:#000; font-family: Georgia, serif;">
+<!-- Right: Text -->
+<div style="flex: 1; color:#000; font-family: Georgia, serif;">
+  <h3 style="margin-top: 0; color:#000; font-size:1.2rem;">
+    <a href="/uploads/lucalooser_cv.pdf" target="_blank" 
+       style="color: inherit; text-decoration: none;">
     <h3 style="margin-top: 0; color:#000; font-size:1.2rem;">Escaping the Dust: The Second-Generation Effects of Droughts</h3>
-    <p style="color:#000; margin-top:0.5rem;">
-      <strong style="color:#000;">Abstract:</strong> Climate change is expected to increase both the frequency and severity of droughts, yet, the long-run intergenerational effects of these environmental shocks remain understudied. This paper investigates the second-generation outcomes following the Dust Bowl (1931–1940), a major drought period, in the United States by leveraging the near-universe of children tracked over multiple decades. Exploiting the natural experiment created by heterogeneous exposure to soil erosion, I document that young children from agricultural families in affected regions decrease farming employment and enjoy higher income. Investigating the drivers, I find that the change out of farming is facilitated by: i) parental migration, ii) industrialization and iii) decreases in agricultural returns in affected regions. To interpret these findings, I develop a quantitative dynamic spatial general equilibrium model that captures the interplay between migration decisions and occupational choices. This framework is planned to be used to assess the long-term impacts of alternative policy interventions, contrasting the effectiveness of place-based versus individual-level policies.
-    </p>
-  </div>
+    <p style="color:#000; margin-top:0.5rem;">        
+    </a>
+  </h3>
+  <p style="color:#000; margin-top:0.5rem;">
+    <strong style="color:#000;">Abstract:</strong> Climate change is expected to increase both the frequency and severity of droughts, yet, the long-run intergenerational effects of these environmental shocks remain understudied. This paper investigates the second-generation outcomes following the Dust Bowl (1931–1940), a major drought period, in the United States by leveraging the near-universe of children tracked over multiple decades. Exploiting the natural experiment created by heterogeneous exposure to soil erosion, I document that young children from agricultural families in affected regions decrease farming employment and enjoy higher income. Investigating the drivers, I find that the change out of farming is facilitated by: i) parental migration, ii) industrialization and iii) decreases in agricultural returns in affected regions. To interpret these findings, I develop a quantitative dynamic spatial general equilibrium model that captures the interplay between migration decisions and occupational choices. This framework is planned to be used to assess the long-term impacts of alternative policy interventions, contrasting the effectiveness of place-based versus individual-level policies.
+  </p>
+</div>
 
 </div>
+
 
 
 
