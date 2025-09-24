@@ -67,7 +67,7 @@ aside.hb-sidebar-container {
     </h3>
     <span style="font-size:0.9rem; color:#000;">
       <em>
-        <a href="/uploads/unequal_global_convergence.pdf" target="_blank" style="color:#000; text-decoration:none;">
+        <a href="/uploads/UGC.pdf" target="_blank" style="color:#000; text-decoration:none;">
           (Draft)
         </a>
       </em>
