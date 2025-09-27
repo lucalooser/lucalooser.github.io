@@ -107,7 +107,7 @@ aside.hb-sidebar-container {
   <!-- Title + Draft inline -->
   <div style="display: flex; align-items: baseline; gap: 0.5rem; flex-wrap: wrap;">
     <h3 style="margin: 0; color:#000; font-size:1.2rem;">
-      The Intergenerational Benefits of a Temporary Negative Shock
+      The Intergenerational Benefits of a Temporary Negative Shock: Evidence from Import Restrictions in Thailand
     </h3>
     <span style="font-size:0.9rem; color:#000;">
       <em> (New draft coming soon)

@@ -114,8 +114,18 @@ languages:
 #    icon: hero/academic-cap
 #    summary: |
 #      Recognized for contributions to scaling laws in deep learning.
+#<p style="color:#000; font-family: Georgia, serif;">
+#  I am lucky to be advised by <a href="https://sites.google.com/view/elisagiannone/?pli=1" target="_blank" style="color:#000; text-decoration:underline;">Elisa Giannone</a> and <a href="ADVISOR2_URL" target="_blank" style="color:#000; text-decoration:underline;">Advisor Name</a>.
+#</p>
 ---
+<p style="color:#000; font-family: Georgia, serif;">
+  I am a fifth Year PhD Candidate in Economics at 
+  <a href="https://www.upf.edu/en/web/econ" target="_blank" style="color:#000; text-decoration:underline;">
+    Universitat Pompeu Fabra
+  </a>, Barcelona, Spain. My research is at the intersection of Macro Development, Economic Geography and Family Economics. In particular, I am interested in studying the role of families and children during the process of structural transformation. I am lucky to be advised by <a href="https://sites.google.com/view/elisagiannone/?pli=1" target="_blank" style="color:#000; text-decoration:underline;">Elisa Giannone</a>.
+</p>
 
-I am a fifth Year PhD Candidate in Economics at Universitat Pompeu Fabra. My research is at the intersection of Macro Development, Economic Geography and Family Economics. In particular, I am interested in studying the role of families and children during the process of structural transformation.
+<p style="color:#000; font-family: Georgia, serif;">
+  I am expected to be on the academic job market in 2026-2027.
+</p>
 
-I am expected to go on the academic job market in 2026-2027
