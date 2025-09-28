@@ -147,7 +147,7 @@ aside.hb-sidebar-container {
   <!-- Title + Draft inline -->
   <div style="display: flex; align-items: baseline; gap: 0.5rem; flex-wrap: wrap;">
     <h3 style="margin: 0; color:#000; font-size:1.2rem;">
-      Who Transforms? Frictions in the Process of Structural Change
+      Frictions in Structural Change: Evidence from the Dust Bowl
     </h3>
     <span style="font-size:0.9rem; color:#000;">
       <em> (Draft coming soon)
