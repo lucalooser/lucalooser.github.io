@@ -179,7 +179,7 @@ aside.hb-sidebar-container {
   <!-- Title + Draft inline -->
   <div style="display: flex; align-items: baseline; gap: 0.5rem; flex-wrap: wrap;">
     <h3 style="margin: 0; color:#000; font-size:1.2rem;">
-      Ties that Bind: Family Networks and the Limits of Mobility
+      Ties that Bind: Family Networks and Internal Migration    
     </h3>
     <span style="font-size:0.9rem; color:#000;">
       <em> (Draft coming soon)
@@ -197,3 +197,4 @@ aside.hb-sidebar-container {
 
 
 
+  <!--Ties that Bind: Family Networks and the Costs of Mobility-->
