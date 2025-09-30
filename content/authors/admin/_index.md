@@ -129,6 +129,6 @@ Here you can find my <a href="/research/" style="color:#000; text-decoration:und
 </p>
 
 <p style="color:#000; font-family: Georgia, serif;">
-  I am expected to be on the academic job market in 2026-2027.
+  I am expected to be on the job market during the 2026-2027 academic year.
 </p>
 
