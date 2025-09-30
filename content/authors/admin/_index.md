@@ -125,7 +125,7 @@ languages:
 </p>
 
 <p style="color:#000; font-family: Georgia, serif;">
-You can find my CV <a href="/uploads/lucalooser_cv.pdf" target="_blank" style="color:#000; text-decoration:underline;">here</a>.
+Here you can find my <a href="/research/" style="color:#000; text-decoration:underline;">research</a> and my <a href="/uploads/lucalooser_cv.pdf" target="_blank" style="color:#000; text-decoration:underline;">CV</a>.
 </p>
 
 <p style="color:#000; font-family: Georgia, serif;">
