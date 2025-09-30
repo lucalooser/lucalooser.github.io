@@ -268,8 +268,8 @@ article, main, .content-area, .site-main > .container {
   /*LULOO: THIS HAS TO CHANGE!!  have 60px each before*/
   /* IMPORTANT: left padding must leave room for the sidebar.
      Your sidebar appears to be ~16rem (w-64, = 256px). Adjust if needed. */
-  padding-left: 16rem;   /* <-- tweak this number if your sidebar is wider/narrower */
-  padding-right: 0rem;   /* small right gutter */
+  padding-left: 2rem;   /* <-- tweak this number if your sidebar is wider/narrower */
+  padding-right: 2rem;   /* small right gutter */
 }
 
 /* keep things responsive: on small screens revert to normal flow */
