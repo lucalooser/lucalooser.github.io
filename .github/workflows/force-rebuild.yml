@@ -1,0 +1,18 @@
+name: Force Rebuild
+
+on:
+  push:
+    branches:
+      - main   # or the branch you deploy from
+
+jobs:
+  rebuild:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - run: |
+          touch research.html cv.html
+          git config --global user.name "github-actions"
+          git config --global user.email "github-actions@github.com"
+          git commit -am "Force refresh research and cv pages" || echo "No changes to commit"
+          git push
