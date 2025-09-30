@@ -3,7 +3,7 @@ name: Force Rebuild
 on:
   push:
     branches:
-      - main   # or the branch you deploy from
+      - main   # your deploy branch
 
 jobs:
   rebuild:
@@ -11,8 +11,8 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - run: |
-          touch research.html cv.html
+          touch content/research/index.md content/cv/index.md
           git config --global user.name "github-actions"
           git config --global user.email "github-actions@github.com"
-          git commit -am "Force refresh research and cv pages" || echo "No changes to commit"
+          git commit -am "Trigger rebuild" || echo "No changes to commit"
           git push
