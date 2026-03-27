@@ -128,7 +128,7 @@ languages:
 Here you can find my <a href="/research/" style="color:#000; text-decoration:underline;">research</a> and my <a href="/uploads/lucalooser_cv.pdf" target="_blank" style="color:#000; text-decoration:underline;">CV</a>.
 </p>
 
-<p style="color:#000; font-family: Georgia, serif;">
-  I am expected to be on the job market during the 2026-2027 academic year.
-</p>
+<!-- <p style="color:#000; font-family: Georgia, serif;">
+   I am expected to be on the job market during the 2026-2027 academic year.
+ </p> -->
 
