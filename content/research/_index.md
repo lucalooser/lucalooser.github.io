@@ -137,7 +137,7 @@ aside.hb-sidebar-container {
 
   <!-- Left: Image -->
   <div style="flex: 0 0 30%; max-width: 30%; text-align: center;">
-    <img src="/uploads/DB_picture.png" 
+    <img src="/uploads/eventstudy_manuf.png" 
          alt="Job Market Paper image"
          style="width: 100%; height: auto; border-radius: 8px;">
   </div>
@@ -147,7 +147,7 @@ aside.hb-sidebar-container {
   <!-- Title + Draft inline -->
   <div style="display: flex; align-items: baseline; gap: 0.5rem; flex-wrap: wrap;">
     <h3 style="margin: 0; color:#000; font-size:1.2rem;">
-      Frictions in Structural Change: Evidence from the Dust Bowl
+      Family-led Structural Change
     </h3>
     <span style="font-size:0.9rem; color:#000;">
       <em> (Draft coming soon)
@@ -158,7 +158,7 @@ aside.hb-sidebar-container {
 
   <!-- Abstract -->
   <p style="color:#000; margin-top:0.5rem;">
-    <strong style="color:#000;">Abstract:</strong> This paper examines how micro-level frictions shape structural transformation in the United States during the early twentieth century. Using the Dust Bowl (1931-1940) as a natural experiment, I study how a large negative productivity shock affected migration, education, and occupational choices across generations. Preliminary evidence suggests that children responded more strongly than adults, pointing to barriers that constrained older cohorts. To investigate the origins of such frictions, I combine linked census data with variation in access to destinations through family networks and in occupational entry opportunities within families. These patterns indicate that both migration and occupational barriers slowed the reallocation of labor out of agriculture. I develop a spatial overlapping-generations model with migration, education, and sectoral choice to interpret the evidence and to quantify the role of frictions in shaping the pace of structural transformation in the presence of shocks.
+    <strong style="color:#000;">Abstract:</strong> Structural transformation does not unfold in a social vacuum. As workers leave agriculture for new sectors and places, access to those opportunities is mediated by families: some individuals inherit relatives who can open doors to jobs and destinations, while others do not. This paper studies how family ties shaped structural change in the United States during the late nineteenth and early twentieth centuries. I combine full-count census data with population-scale genealogical linkages to build extended kin networks over time and space, and I exploit deaths of sector-specific relatives as shocks to family-based access. These shocks alter occupational choices and propagate within families. Guided by this evidence, I develop and estimate a dynamic spatial overlapping-generations model in which dynastic family capital lowers migration costs to connected places and entry costs into connected sectors. Quantitatively, family ties slow early reallocation out of agriculture, later accelerate the shift into nonfarm work, and dampen adjustment to a major agricultural shock. 
   </p>
 </div>
 </div>
