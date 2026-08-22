@@ -1,134 +1,50 @@
 ---
-# Display name
 title: Luca Looser
-
-# Name pronunciation (optional)
 name_pronunciation: ''
-
-# Full name (for SEO)
 first_name: Luca
 last_name: Looser
-
-# Pronouns (optional)
 pronouns: ''
 
-# Status emoji
 status:
   icon: ''
 
-# Is this the primary user of the site?
 superuser: true
-
-# Highlight the author in author lists? (true/false)
 highlight_name: true
-
-# Role/position/tagline
 role: PhD Candidate in Economics
 
-# Organizations/Affiliations to display in Biography blox
 organizations:
   - name: Universitat Pompeu Fabra
-    #url: https://ai.meta.com/
 
-# Social network links
-# Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
   - icon: at-symbol
     url: 'mailto:luca.looser@upf.edu'
-    label: E-mail Me
+    label: Email
   - icon: brands/linkedin
     url: https://www.linkedin.com/in/lucalooser/
-  #- icon: academicons/google-scholar
-  #  url: https://scholar.google.com/citations?user=alexjohnson
-  #- icon: academicons/orcid
-  #  url: https://orcid.org/0000-0002-1825-0097
-
-#interests:
-#  - Macro Development
-#  - Economic Geography
-#  - Family Economics
-
-#education:
-#  - area: PhD Economics
-#    institution: Pompeu Fabra
-#    date_start: 2027-07-31
-#    date_end: 2021-09-01
-#    summary: |
-#    button:
-#      text: 'Read Thesis'
-#      url: 'https://example.com/thesis.pdf'
-#  - area: MS Economics
-#    institution: London School of Economics
-#    date_start: 2020-09-01
-#    date_end: 2021-07-31
-#    summary: |
-#  - area: BA Economics
-#    institution: Universität St. Gallen
-#    date_start: 2015-09-01
-#    date_end: 2019-05-01
-#    summary: |
+    label: LinkedIn
 
 work:
-  - position: Intern Inflation Forecasting
+  - position: Intern, Inflation Forecasting
     company_name: Swiss National Bank
-    #company_url: 'https://ai.meta.com/'
-    #company_logo: ''
     date_start: 2019-05-01
     date_end: 2020-07-31
-    summary: 
-
+    summary: ''
 
 languages:
   - name: German
-    #percent: 100
   - name: Italian
-    #percent: 50
   - name: English
   - name: French
   - name: Spanish
-  - name: Japanese 
-
-# Awards.
-#   Add/remove as many awards below as you like.
-#   Only `title`, `awarder`, and `date` are required.
-#   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
-#awards:
-#  - title: Best Paper Award
-#    url: https://neurips.cc/
-#    date: '2022-12-01'
-#    awarder: NeurIPS
-#    icon: hero/trophy
-#    summary: |
-#      Awarded for groundbreaking work on efficient training of large models.
-#  - title: AI Innovation Grant
-#    url: https://www.nsf.gov/
-#    date: '2021-06-15'
-#    awarder: National Science Foundation
-#    icon: hero/currency-dollar
-#    summary: |
-#      $500,000 grant for research in ethical AI development.
-#  - title: Outstanding PhD Thesis
-#    url: https://www.stanford.edu/
-#    date: '2019-06-30'
-#    awarder: Stanford University
-#    icon: hero/academic-cap
-#    summary: |
-#      Recognized for contributions to scaling laws in deep learning.
-#<p style="color:#000; font-family: Georgia, serif;">
-#  I am lucky to be advised by <a href="https://sites.google.com/view/elisagiannone/?pli=1" target="_blank" style="color:#000; text-decoration:underline;">Elisa Giannone</a> and <a href="ADVISOR2_URL" target="_blank" style="color:#000; text-decoration:underline;">Advisor Name</a>.
-#</p>
+  - name: Japanese
 ---
-<p style="color:#000; font-family: Georgia, serif;">
-  I am a fifth Year PhD Candidate in Economics at 
-  <a href="https://www.upf.edu/en/web/econ" target="_blank" style="color:#000; text-decoration:underline;">
-    Universitat Pompeu Fabra</a>, Barcelona, Spain. My research is at the intersection of Macro Development, Economic Geography and Family Economics. In particular, I am interested in studying the role of families and children during the process of structural transformation. I am lucky to be advised by <a href="https://sites.google.com/view/elisagiannone/?pli=1" target="_blank" style="color:#000; text-decoration:underline;">Elisa Giannone</a> and <a href="https://sites.google.com/view/davidknagy/bio?authuser=0" target="_blank" style="color:#000; text-decoration:underline;">Dávid Krisztián Nagy</a>. 
-</p>
-
-<p style="color:#000; font-family: Georgia, serif;">
-Here you can find my <a href="/research/" style="color:#000; text-decoration:underline;">research</a> and my <a href="/uploads/lucalooser_cv.pdf" target="_blank" style="color:#000; text-decoration:underline;">CV</a>.
-</p>
-
-<!-- <p style="color:#000; font-family: Georgia, serif;">
-   I am expected to be on the job market during the 2026-2027 academic year.
- </p> -->
-
+<div class="hero-bio">
+  <div class="job-market-label">2026–27 JOB MARKET</div>
+  <p class="hero-fields">Macro Development <span>·</span> Economic Geography <span>·</span> Family Economics</p>
+  <p>I study how families, geography and institutions shape structural transformation and economic development. My work combines large-scale historical data, quasi-experimental evidence and quantitative spatial models.</p>
+  <p class="hero-advisors">Advisors: <a href="https://sites.google.com/view/elisagiannone/" target="_blank" rel="noopener">Elisa Giannone</a> and <a href="https://sites.google.com/view/davidknagy/bio?authuser=0" target="_blank" rel="noopener">Dávid Krisztián Nagy</a>.</p>
+  <div class="button-row hero-buttons">
+    <a class="site-button site-button-primary" href="#job-market-paper">Job Market Paper</a>
+    <a class="site-button site-button-secondary" href="/uploads/lucalooser_cv.pdf" target="_blank" rel="noopener">CV</a>
+  </div>
+</div>
