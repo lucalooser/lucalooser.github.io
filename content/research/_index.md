@@ -6,14 +6,12 @@ reading_time: false
 show_date: false
 show_page_navigation: false
 ---
-
 <div class="academic-page-shell research-page">
   <header class="page-intro">
     <div class="section-kicker">RESEARCH</div>
     <h1>Research</h1>
     <p>My research is in macro development, economic geography and family economics, with a focus on structural transformation and spatial mobility.</p>
   </header>
-
   <section id="family-led-structural-change" class="featured-paper">
     <div class="featured-paper-copy">
       <div class="paper-status paper-status-accent">Job Market Paper</div>
@@ -29,10 +27,8 @@ show_page_navigation: false
       <img src="/uploads/eventstudy_manuf.png" alt="Evidence from Family-led Structural Change">
     </div>
   </section>
-
   <section class="paper-list-section">
     <div class="section-kicker">WORKING PAPERS</div>
-
     <article id="unequal-global-convergence" class="paper-row">
       <div class="paper-image">
         <img src="/uploads/UGC_picture.png" alt="Unequal Global Convergence">
@@ -45,7 +41,6 @@ show_page_navigation: false
         <a class="text-link" href="/uploads/UGC.pdf" target="_blank" rel="noopener">Read draft →</a>
       </div>
     </article>
-
     <article id="temporary-shock" class="paper-row">
       <div class="paper-image">
         <img src="/uploads/Shrimp_picture.png" alt="Temporary shock in Thailand">
@@ -59,10 +54,8 @@ show_page_navigation: false
       </div>
     </article>
   </section>
-
   <section class="paper-list-section wip-section">
     <div class="section-kicker">WORK IN PROGRESS</div>
-
     <article id="ties-that-bind" class="paper-row">
       <div class="paper-image">
         <img src="/uploads/mignet_picture.png" alt="Family networks and internal migration">

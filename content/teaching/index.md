@@ -6,14 +6,12 @@ reading_time: false
 show_date: false
 show_page_navigation: false
 ---
-
 <div class="academic-page-shell teaching-page">
   <header class="page-intro">
     <div class="section-kicker">TEACHING</div>
     <h1>Teaching</h1>
     <p>I have taught undergraduate courses in microeconomics and international economics at Universitat Pompeu Fabra.</p>
   </header>
-
   <section class="teaching-list">
     <article class="teaching-row">
       <div class="teaching-year">2023</div>
@@ -24,7 +22,6 @@ show_page_navigation: false
         <!-- Replace the span above with an <a href="..."> link when evaluations are available. -->
       </div>
     </article>
-
     <article class="teaching-row">
       <div class="teaching-year">2023</div>
       <div class="teaching-copy">
