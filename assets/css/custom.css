@@ -1,350 +1,657 @@
-/* Change background and text look */
+/* ---------------------------------------------------------
+   Luca Looser — job-market website redesign
+   Scoped, maintainable overrides for Hugo Blox.
+   --------------------------------------------------------- */
+
+:root {
+  --ink: #171717;
+  --muted: #66635f;
+  --line: #e7e3dd;
+  --paper: #ffffff;
+  --paper-warm: #faf9f7;
+  --accent: #7f1d1d;
+  --accent-dark: #641717;
+  --max-site-width: 1120px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
 body {
-  background: #fdfdfd;
-  font-family: Georgia, serif;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: Georgia, 'Times New Roman', serif;
+  -webkit-font-smoothing: antialiased;
 }
 
-/* Center avatar */
-.avatar {
-  max-width: 250px !important;
-  height: auto !important;
-  margin: 0 auto !important;   /* center horizontally */
-  display: block !important;   /* ensure centering works */
+body,
+p,
+li,
+blockquote,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a,
+button {
+  font-family: Georgia, 'Times New Roman', serif !important;
 }
 
+a {
+  color: inherit;
+}
 
+a:hover,
+a:focus {
+  color: var(--accent);
+}
 
-/* Center the biography block */
+/* Header */
+header,
+header nav {
+  background: rgba(255, 255, 255, 0.97) !important;
+}
 
+header nav {
+  border-bottom: 1px solid var(--line);
+}
 
+header nav a,
+header nav .navbar-brand,
+header nav .nav-link {
+  color: var(--ink) !important;
+  font-family: Georgia, 'Times New Roman', serif !important;
+}
 
+header nav a:hover {
+  color: var(--accent) !important;
+}
 
+/* Shared labels, buttons, and links */
+.section-kicker,
+.paper-status {
+  color: var(--accent);
+  font-family: Arial, Helvetica, sans-serif !important;
+  font-size: 0.73rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  line-height: 1.25;
+  text-transform: uppercase;
+}
 
+.button-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.7rem;
+  margin-top: 1.3rem;
+}
 
-.portrait-title h2 {
-  font-size: 1.8rem;
+.site-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 2.45rem;
+  padding: 0.62rem 1rem;
+  border: 1px solid var(--ink);
+  border-radius: 3px;
+  font-family: Arial, Helvetica, sans-serif !important;
+  font-size: 0.82rem;
   font-weight: 600;
+  letter-spacing: 0.02em;
+  line-height: 1;
+  text-decoration: none !important;
+  transition: background 140ms ease, color 140ms ease, border-color 140ms ease;
 }
 
-/* Add card-like look to sections */
-.section {
-  background: white;
-  border: 1px solid #eee;
-  padding: 2rem;
-  border-radius: 12px;
-  box-shadow: 0 2px 6px rgba(183, 24, 24, 0.05);
+.site-button-primary {
+  border-color: var(--accent);
+  background: var(--accent);
+  color: #fff !important;
 }
 
-/* 2. Use Georgia everywhere */
-body, h1, h2, h3, h4, h5, h6, p, a, li, blockquote {
-  font-family: Georgia, serif !important;
+.site-button-primary:hover,
+.site-button-primary:focus {
+  border-color: var(--accent-dark);
+  background: var(--accent-dark);
+  color: #fff !important;
 }
 
-body, h1, h2, h3, h4, h5, h6, p, li, blockquote {
-  font-family: Georgia, serif !important;
-  color: #000000 !important;
+.site-button-secondary {
+  background: #fff;
+  color: var(--ink) !important;
 }
 
+.site-button-secondary:hover,
+.site-button-secondary:focus {
+  border-color: var(--accent);
+  color: var(--accent) !important;
+}
 
-/* General button style (matches JMP button look) */
-.btn, .btn-primary, .btn-outline, .btn-lg, .btn-sm {
-  background-color: #1e40af !important; /* same blue as JMP button */
-  color: #ffffff !important;
-  border-radius: 6px !important;
-  border: none !important;
-  padding: 0.5rem 1rem;
+.site-button-muted,
+.site-button-placeholder {
+  cursor: default;
+}
+
+.site-button-muted {
+  border-color: #d7d2ca;
+  background: #f6f4f1;
+  color: #77716b !important;
+}
+
+.text-link {
+  color: var(--accent) !important;
+  font-family: Arial, Helvetica, sans-serif !important;
+  font-size: 0.82rem;
+  font-weight: 600;
   text-decoration: none !important;
 }
 
-/* Hover effect */
-.btn:hover, .btn-primary:hover, .btn-outline:hover {
-  background-color: #1d4ed8 !important; /* slightly lighter blue */
-  color: #ffffff !important;
+.text-link:hover {
+  text-decoration: underline !important;
 }
 
-
-
-/* On hover, make them dark gray instead of white/blue */
-a:hover, a:focus {
-  color: #333333 !important;
+/* Homepage hero */
+.hero-markdown-block {
+  padding: 0 !important;
 }
 
-/* Research section text should all be black */
-.research-section {
-  color: #000000 !important;
-  font-family: Georgia, serif !important;
+.hero-section {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 235px;
+  gap: clamp(2.5rem, 7vw, 5.8rem);
+  align-items: center;
+  padding-top: 7.1rem !important;
+  padding-bottom: 5rem !important;
 }
 
-/* Research section links */
-.research-section a,
-.research-section a:visited {
-  color: #000000 !important;
+.hero-copy h1 {
+  margin: 0 0 0.45rem;
+  color: var(--ink) !important;
+  font-size: clamp(2.55rem, 5vw, 3.85rem);
+  font-weight: 500;
+  letter-spacing: -0.035em;
+  line-height: 1.03;
+}
+
+.hero-role {
+  margin: 0 0 0.55rem !important;
+  color: var(--muted) !important;
+  font-size: 1.06rem;
+}
+
+.hero-fields {
+  margin: 0 0 1.5rem !important;
+  color: var(--muted) !important;
+  font-family: Arial, Helvetica, sans-serif !important;
+  font-size: 0.86rem;
+  letter-spacing: 0.01em;
+}
+
+.hero-fields span {
+  padding: 0 0.25rem;
+  color: #aaa39b;
+}
+
+.hero-description {
+  max-width: 690px;
+  margin: 0 0 0.9rem !important;
+  color: var(--ink) !important;
+  font-size: 1.06rem;
+  line-height: 1.68;
+}
+
+.hero-market {
+  margin: 0 0 0.45rem !important;
+  color: var(--ink) !important;
+  font-size: 0.96rem;
+  font-weight: 600;
+}
+
+.hero-advisors {
+  margin: 0 !important;
+  color: var(--muted) !important;
+  font-size: 0.91rem;
+}
+
+.hero-advisors a {
   text-decoration: underline;
-}
-.research-section a:hover {
-  color: #333333 !important;
-}
-
-/* Force "Title:" and "Abstract:" (strong tags) to black */
-.research-section strong {
-  color: #000000 !important;
-  font-weight: bold !important;
+  text-decoration-color: #bbb4ad;
+  text-underline-offset: 2px;
 }
 
-
-
-/* ========== AGGRESSIVE HOMEPAGE / AVATAR OVERRIDES ========== */
-
-/* Force the landing resume block to sit higher */
-.block--resume-biography-3,
-.resume-biography,
-.block.resume-biography-3,
-.hb-block--resume-biography-3,
-.landing .block--resume-biography-3,
-.home-section.first-of_type,
-.landing-section.first-of-type {
-  padding-top: 4px !important;
-  margin-top: 60px !important;    /* pull up the whole block */
+.hero-buttons {
+  margin-top: 1.3rem;
 }
 
-
-
-
-/* ====== Move name ====== */
-
-/* Tighten spacing **only** around homepage avatar + name + bio (aggressive but scoped) */
-
-/* === Force smaller name and closer spacing under avatar === */
-
-/* Target the name under the avatar */
-.landing .block--resume-biography-3 .author-name {
-  font-size: 1.6rem !important;   /* smaller than default (~2rem) */
-  margin-top: 0.2rem !important;  /* bring it closer to the avatar */
-  margin-bottom: 0.2rem !important;
-  line-height: 1.1 !important;
-  color: #000 !important;
-  text-align: center !important;  /* keeps it centered under picture */
+.hero-email {
+  display: inline-block;
+  margin-top: 1.1rem;
+  color: var(--muted) !important;
+  font-family: Arial, Helvetica, sans-serif !important;
+  font-size: 0.78rem;
+  text-decoration: none !important;
 }
 
-/* Target the role (PhD Candidate in Economics) */
-.landing .block--resume-biography-3 .author-role {
-  font-size: 1rem !important;     /* smaller than default */
-  margin-top: 0 !important;       /* reduce whitespace */
-  margin-bottom: 0.2rem !important;
-  line-height: 1.2 !important;
-  color: #000 !important;
-  text-align: center !important;
+.hero-email:hover {
+  color: var(--accent) !important;
 }
 
-
-/* === Shrink and tighten homepage name/role === */
-
-/* Name */
-h1.text-5xl {
-  font-size: 2rem !important;       /* smaller font */
-  margin-bottom: 0.2rem !important; /* less space below */
-  line-height: 1.2 !important;
+.hero-photo-wrap {
+  width: 235px;
 }
 
-/* Role */
-p.text-2xl {
-  font-size: 1.1rem !important;     /* smaller role text */
-  margin-top: 0.1rem !important;    /* bring closer to name */
-  margin-bottom: 0.5rem !important; /* less gap above picture */
-  line-height: 1.2 !important;
+.hero-photo {
+  display: block;
+  width: 235px;
+  height: 300px;
+  object-fit: cover;
+  object-position: center 29%;
+  border-radius: 6px;
+  box-shadow: 0 0 0 1px rgba(23, 23, 23, 0.1);
 }
 
-.avatar-wrapper{
-  margin-bottom: 0 !important;
+/* Break custom homepage sections out of the prose width without
+   globally overriding Hugo's containers. */
+.homepage-markdown-block {
+  padding: 0 !important;
 }
 
-
-/* Tailwind-style nav bar override */
-header,
-nav {
-  background-color: #ffffff !important;
-}
-
-header nav a {
-  color: #000000 !important;
-}
-
-
-
-/* Adjust research items */
-.research-item img {
-  max-width: 100%;
-  border-radius: 8px;
-}
-
-.research-item h3 {
-  margin-top: 0;
-  font-size: 1.3rem;
-  color: #000;
-}
-
-
-
-
-/* ===========================
-   WIDER PAGE & NARROWER SIDEBAR
-   =========================== */
-
-/* 1) Make the main content container wider (reduce side margins) */
-.site-main,
-.site-wrapper,
-.page-wrapper,
-.wrapper,
-.container,
-.container-lg,
-.content,
-.article,
-.main,
-.hb-content,
-.hb-main,
-.page,
-.article-body,
-.article-container {
-  max-width: 100% !important;      /* allow full width */
-  padding-left: 0px !important;   /* small horizontal padding */
-  padding-right: 0px !important;
-}
-
-/* 2) If the theme uses Tailwind max-width classes (e.g. max-w-7xl, max-w-screen-xl), force them locally */
-[class*="max-w-"] {
-  max-width: 100% !important;
-}
-
-
-
-
-
-/* 4) Ensure main article area uses remaining width (fallback) */
-article, main, .content-area, .site-main > .container {
-  width: calc(100% - 0px) !important;
-  max-width: calc(100% - 0px) !important;
-}
-
-/* 5) Responsive: stack on narrow screens */
-@media (max-width: 1024px) {
-  .hb-layout, .site-layout, .layout, .hb-grid,
-  .hb-sidebar-container + .hb-content,
-  aside.hb-sidebar-container ~ .hb-content,
-  .hb-sidebar-container ~ .main,
-  .hb-sidebar-container ~ .site-main {
-    display: block !important;
-    grid-template-columns: none !important;
-  }
-  article, main, .content-area {
-    width: 100% !important;
-    max-width: 100% !important;
-    padding-left: 0px !important;
-    padding-right: 0px !important;
-  }
-}
-
-/* 6) Reduce large inner paddings that create visual side gaps */
-.px-4, .px-6, .px-8, .px-10 {
-  padding-left: 0px !important;
-  padding-right: 0px !important;
-}
-
-
-
-
-/* ===== research page — full-bleed wrapper to reduce side gutters ===== */
-
-/* Make the wrapper span the viewport, but keep content padded so it doesn't collide with sidebar */
-.research-fullwidth-wrapper {
+.academic-home-section,
+.academic-page-shell {
   position: relative;
   left: 50%;
-  right: 50%;
-  margin-left: -50vw;
-  margin-right: -50vw;
-  width: 100vw;
-  max-width: 100vw;
-  box-sizing: border-box;
-
-  /*LULOO: THIS HAS TO CHANGE!!  have 60px each before*/
-  /* IMPORTANT: left padding must leave room for the sidebar.
-     Your sidebar appears to be ~16rem (w-64, = 256px). Adjust if needed. */
-  padding-left: 2rem;   /* <-- tweak this number if your sidebar is wider/narrower */
-  padding-right: 2rem;   /* small right gutter */
+  width: min(var(--max-site-width), calc(100vw - 3rem));
+  max-width: none !important;
+  transform: translateX(-50%);
 }
 
-/* keep things responsive: on small screens revert to normal flow */
-@media (max-width: 1024px) {
-  .research-fullwidth-wrapper {
-    position: static;
-    left: auto;
-    right: auto;
-    margin-left: 0;
-    margin-right: 0;
-    width: auto;
-    padding-left: 12px;
-    padding-right: 12px;
-  }
+.academic-home-section {
+  padding: 4.8rem 0;
 }
 
-
-
-/* typography */
-.research-item h3 { margin-top:0; font-size:1.25rem; color:#000; }
-.research-item p { color:#000; font-family: Georgia, serif; line-height:1.45; }
-
-/* OPTIONAL: slightly narrow the sidebar visually (if you want more content space) */
-/* aside.hb-sidebar-container { width: 240px !important; } */
-
-/* Center research page content properly */
-.hb-content,
-.site-main,
-.page,
-.article,
-.wrapper {
-  margin-left: auto !important;
-  margin-right: auto !important;
+.academic-home-section h2,
+.academic-page-shell h1,
+.academic-page-shell h2 {
+  color: var(--ink) !important;
+  font-weight: 500;
+  letter-spacing: -0.02em;
 }
 
-/* take out social media icons*/ 
-/* Hide bottom social share icons */
-section.flex.flex-row.flex-wrap.justify-center.pt-4.text-xl {
-  display: none !important;
+/* JMP homepage feature */
+.jmp-section {
+  border-top: 1px solid var(--line);
 }
 
-
-
-
-/* adjust for media*/ 
-/* Desktop: image ~35%, text ~65% */
-.research-item img {
-  flex: 0 0 95% !important;
-  max-width: 95% !important;
+.jmp-card {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(380px, 0.92fr);
+  gap: clamp(2rem, 5vw, 4.7rem);
+  align-items: center;
+  margin-top: 1rem;
 }
 
-/* Text takes remaining space */
-.research-item div {
-  flex: 1 !important;
+.jmp-copy h2 {
+  margin: 0.3rem 0 1rem;
+  font-size: clamp(1.9rem, 3vw, 2.6rem);
+  line-height: 1.12;
 }
 
-/* On tablets/phones: stack */
-@media (max-width: 768px) {
-  .research-item {
-    flex-direction: column !important;
-  }
-  .research-item img {
-    max-width: 80% !important;
-    flex: none !important;
-    margin-bottom: 1rem !important;
-  }
+.jmp-copy p {
+  color: #3b3936 !important;
+  font-size: 0.97rem;
+  line-height: 1.65;
 }
 
-/* remove arrows and line*/
-/* Hide bottom divider line + prev/next arrows */
-div.pt-1.no-prose.w-full {
-  display: none !important;
+.jmp-copy .jmp-lead {
+  color: var(--ink) !important;
+  font-size: 1.1rem;
+  line-height: 1.55;
 }
 
-/* Remove Hugo Blox footer credits */
+.jmp-figure-wrap {
+  padding: 0.75rem;
+  border: 1px solid var(--line);
+  background: var(--paper-warm);
+}
+
+.jmp-figure {
+  display: block;
+  width: 100%;
+  height: auto;
+  background: #fff;
+}
+
+/* Research preview */
+.research-preview-section {
+  border-top: 1px solid var(--line);
+}
+
+.section-heading-row {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  gap: 2rem;
+  margin-bottom: 1.6rem;
+}
+
+.section-heading-row h2 {
+  margin: 0.35rem 0 0;
+  font-size: 2rem;
+}
+
+.research-preview-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  border-top: 1px solid var(--line);
+}
+
+.research-preview-card {
+  padding: 1.55rem 1.6rem 0.4rem 0;
+  border-right: 1px solid var(--line);
+}
+
+.research-preview-card + .research-preview-card {
+  padding-left: 1.6rem;
+}
+
+.research-preview-card:last-child {
+  padding-right: 0;
+  border-right: 0;
+}
+
+.research-preview-card h3 {
+  margin: 0.55rem 0 0.55rem;
+  color: var(--ink) !important;
+  font-size: 1.17rem;
+  font-weight: 500;
+  line-height: 1.3;
+}
+
+.research-preview-card p {
+  color: #4e4a46 !important;
+  font-size: 0.9rem;
+  line-height: 1.55;
+}
+
+.paper-authors,
+.paper-meta {
+  color: var(--muted) !important;
+  font-size: 0.84rem !important;
+  font-style: italic;
+  line-height: 1.45 !important;
+}
+
+/* Standard research/CV pages */
+.academic-page-shell {
+  padding: 7rem 0 4rem;
+}
+
+.page-intro {
+  max-width: 760px;
+  margin-bottom: 3.4rem;
+}
+
+.page-intro h1 {
+  margin: 0.35rem 0 0.7rem;
+  font-size: clamp(2.2rem, 4vw, 3.35rem);
+}
+
+.page-intro p {
+  color: var(--muted) !important;
+  font-size: 1.02rem;
+  line-height: 1.6;
+}
+
+.compact-page-intro {
+  margin-bottom: 1.6rem;
+}
+
+.featured-paper {
+  display: grid;
+  grid-template-columns: minmax(0, 1.12fr) minmax(330px, 0.88fr);
+  gap: clamp(2rem, 5vw, 4.6rem);
+  align-items: start;
+  margin-bottom: 5rem;
+  padding: 2.4rem;
+  border: 1px solid #decaca;
+  background: #fffafa;
+}
+
+.featured-paper h2 {
+  margin: 0.45rem 0 0.55rem;
+  font-size: clamp(1.8rem, 2.6vw, 2.45rem);
+}
+
+.featured-paper p,
+.paper-copy p {
+  color: #3f3b37 !important;
+  font-size: 0.94rem;
+  line-height: 1.68;
+}
+
+.featured-paper-figure {
+  padding: 0.6rem;
+  border: 1px solid #e3d9d2;
+  background: #fff;
+}
+
+.featured-paper-figure img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.paper-status-accent {
+  color: var(--accent);
+}
+
+.paper-list-section {
+  margin-top: 4.5rem;
+}
+
+.paper-list-section > .section-kicker {
+  margin-bottom: 0.9rem;
+}
+
+.paper-row {
+  display: grid;
+  grid-template-columns: 280px minmax(0, 1fr);
+  gap: 2.4rem;
+  padding: 2.2rem 0;
+  border-top: 1px solid var(--line);
+}
+
+.paper-row:last-child {
+  border-bottom: 1px solid var(--line);
+}
+
+.paper-image img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 1px solid var(--line);
+  background: #fff;
+}
+
+.paper-copy h2 {
+  margin: 0.45rem 0 0.35rem;
+  font-size: 1.45rem;
+  line-height: 1.25;
+}
+
+.paper-copy strong,
+.featured-paper strong {
+  color: var(--ink) !important;
+}
+
+.paper-copy a:not(.text-link),
+.featured-paper a:not(.site-button) {
+  text-decoration: underline;
+  text-decoration-color: #bcb4ac;
+  text-underline-offset: 2px;
+}
+
+.paper-note {
+  color: var(--muted);
+  font-family: Arial, Helvetica, sans-serif !important;
+  font-size: 0.8rem;
+  font-style: italic;
+}
+
+.wip-section {
+  margin-top: 4.7rem;
+}
+
+/* Teaching */
+.teaching-list {
+  border-top: 1px solid var(--line);
+}
+
+.teaching-row {
+  display: grid;
+  grid-template-columns: 110px minmax(0, 1fr);
+  gap: 2.2rem;
+  padding: 2rem 0;
+  border-bottom: 1px solid var(--line);
+}
+
+.teaching-year {
+  color: var(--muted);
+  font-family: Arial, Helvetica, sans-serif !important;
+  font-size: 0.82rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+}
+
+.teaching-copy h2 {
+  margin: -0.15rem 0 0.35rem;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.teaching-meta {
+  margin: 0 0 1rem !important;
+  color: var(--muted) !important;
+  font-size: 0.92rem;
+}
+
+/* CV */
+.cv-frame-wrap {
+  overflow: hidden;
+  height: 980px;
+  border: 1px solid var(--line);
+  background: #f6f4f1;
+}
+
+.cv-frame-wrap iframe {
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+/* Hide theme elements that are not useful on a candidate site. */
+section.flex.flex-row.flex-wrap.justify-center.pt-4.text-xl,
+div.pt-1.no-prose.w-full,
 footer .powered-by {
   display: none !important;
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+  .hero-section {
+    grid-template-columns: minmax(0, 1fr) 210px;
+    gap: 2.4rem;
+    padding-top: 6rem !important;
+    padding-bottom: 4rem !important;
+  }
+
+  .hero-photo-wrap,
+  .hero-photo {
+    width: 210px;
+  }
+
+  .hero-photo {
+    height: 270px;
+  }
+
+  .jmp-card,
+  .featured-paper {
+    grid-template-columns: 1fr;
+  }
+
+  .research-preview-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .research-preview-card,
+  .research-preview-card + .research-preview-card {
+    padding: 1.4rem 0;
+    border-right: 0;
+    border-bottom: 1px solid var(--line);
+  }
+
+  .paper-row {
+    grid-template-columns: 220px minmax(0, 1fr);
+    gap: 1.7rem;
+  }
+}
+
+@media (max-width: 640px) {
+  .hero-section {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    padding-top: 5.4rem !important;
+  }
+
+  .hero-photo-wrap {
+    grid-row: 1;
+  }
+
+  .hero-photo-wrap,
+  .hero-photo {
+    width: 180px;
+  }
+
+  .hero-photo {
+    height: 230px;
+  }
+
+  .academic-home-section,
+  .academic-page-shell {
+    width: min(100% - 2rem, var(--max-site-width));
+  }
+
+  .academic-home-section {
+    padding: 3.5rem 0;
+  }
+
+  .section-heading-row {
+    align-items: start;
+    flex-direction: column;
+    gap: 0.8rem;
+  }
+
+  .featured-paper {
+    padding: 1.35rem;
+  }
+
+  .paper-row,
+  .teaching-row {
+    grid-template-columns: 1fr;
+  }
+
+  .teaching-row {
+    gap: 0.5rem;
+  }
+
+  .paper-image {
+    max-width: 420px;
+  }
+
+  .cv-frame-wrap {
+    height: 720px;
+  }
 }

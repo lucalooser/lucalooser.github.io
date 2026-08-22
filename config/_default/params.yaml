@@ -1,24 +1,16 @@
 # SITE SETUP
-# Guide: https://docs.hugoblox.com/tutorial/
-# Documentation: https://docs.hugoblox.com/
-# This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
-
-# Appearance
 appearance:
   theme: minimal
   color: red
   font_size: s
   custom_css: ["css/custom.css"]
-  
 
-# SEO
 marketing:
   seo:
     site_type: Person
     local_business_type: ''
     org_name: ''
-    description: ''
-#    twitter: 'GetResearchDev'
+    description: 'Luca Looser is a PhD Candidate in Economics at Universitat Pompeu Fabra working on macro development, economic geography, and family economics.'
   analytics:
     google_analytics: ''
     baidu_tongji: ''
@@ -29,7 +21,6 @@ marketing:
     google: ''
     baidu: ''
 
-# Site header
 header:
   navbar:
     enable: true
@@ -38,11 +29,9 @@ header:
     show_search: false
     show_theme_chooser: false
     reading_time: false
-    #font_size: m
     logo:
       text: 'Luca Looser'
 
-# Site footer
 footer:
   copyright:
     notice: ''
@@ -52,16 +41,13 @@ footer:
       share_alike: false
       allow_commercial: false
 
-# Localization
 locale:
   date_format: 'Jan 2, 2006'
   time_format: '3:04 PM'
 
-# Site features
 features:
   math:
     enable: true
   privacy_pack:
     enable: false
-  font_size: s 
-
+  font_size: s

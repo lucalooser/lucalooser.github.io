@@ -1,30 +1,38 @@
 ---
-title: " "
+title: ' '
 type: page
 toc: false
 reading_time: false
 show_date: false
 show_page_navigation: false
 ---
-## Teaching
 
-<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; margin-top: 2rem;">
+<div class="academic-page-shell teaching-page">
+  <header class="page-intro">
+    <div class="section-kicker">TEACHING</div>
+    <h1>Teaching</h1>
+    <p>I have taught undergraduate courses in microeconomics and international economics at Universitat Pompeu Fabra.</p>
+  </header>
 
-  <!-- Course 1 -->
-  <div style="background: #4a48489d; padding: 20px; border-radius: 12px; box-shadow: 0 4px 10pxr gba(0,0,0,0.2);">
-    <h3 style="margin-top:0;">International Economics I (Undergraduate)</h3>
-    <p><strong>Institution:</strong> Universitat Pompeu Fabra</p>
-    <p><strong>Term:</strong> Winter 2023</p>
-    <p>Covers the topic from major disruptive events to identify patterns and collective insights on how crises shape international trade.</p>
-  </div>
+  <section class="teaching-list">
+    <article class="teaching-row">
+      <div class="teaching-year">2023</div>
+      <div class="teaching-copy">
+        <h2>Microeconomics I</h2>
+        <p class="teaching-meta">Undergraduate · Universitat Pompeu Fabra</p>
+        <span class="site-button site-button-secondary site-button-placeholder" aria-disabled="true">Evaluations</span>
+        <!-- Replace the span above with an <a href="..."> link when evaluations are available. -->
+      </div>
+    </article>
 
-  <!-- Course 2 -->
-  <div style="background: #4a48489d; padding: 20px; border-radius: 12px; box-shadow: 0 4px 10pxr gba(0,0,0,0.2);">
-    <h3 style="margin-top:0;">Microeconomics I (Undergraduate)</h3>
-    <p><strong>Institution:</strong> Universitat Pompeu Fabra</p>
-    <p><strong>Term:</strong> Spring 2024</p>
-    <p>Covers consumer theory, producer theory, and market structures, which lay the basis for future economics courses.</p>
-  </div>
-
-
+    <article class="teaching-row">
+      <div class="teaching-year">2023</div>
+      <div class="teaching-copy">
+        <h2>International Economics I</h2>
+        <p class="teaching-meta">Undergraduate · Universitat Pompeu Fabra</p>
+        <span class="site-button site-button-secondary site-button-placeholder" aria-disabled="true">Evaluations</span>
+        <!-- Replace the span above with an <a href="..."> link when evaluations are available. -->
+      </div>
+    </article>
+  </section>
 </div>
