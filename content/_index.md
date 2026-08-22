@@ -74,7 +74,6 @@ sections:
             </div>
             <a class="text-link" href="/research/">View all research →</a>
           </div>
-
           <div class="research-preview-grid">
             <article class="research-preview-card">
               <div class="paper-status">Working Paper</div>
@@ -83,7 +82,6 @@ sections:
               <p>We study how structural transformation toward high-skill services changes regional convergence around the world.</p>
               <a class="text-link" href="/uploads/UGC.pdf" target="_blank" rel="noopener">Draft →</a>
             </article>
-
             <article class="research-preview-card">
               <div class="paper-status">Working Paper</div>
               <h3>The Intergenerational Consequences of a Temporary Shock</h3>
@@ -91,7 +89,6 @@ sections:
               <p>We use temporary import restrictions in Thailand to study persistent sectoral reallocation and intergenerational responses.</p>
               <a class="text-link" href="/research/#temporary-shock">Abstract →</a>
             </article>
-
             <article class="research-preview-card">
               <div class="paper-status">Work in Progress</div>
               <h3>Ties that Bind: Family Networks and Internal Migration</h3>
