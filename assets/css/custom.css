@@ -55,8 +55,16 @@ header nav {
   background: rgba(255, 255, 255, 0.97) !important;
 }
 
+/* Keep a single divider under the navigation.  Hugo Blox can add its own
+   header border/shadow, so neutralize those and draw the divider once. */
+header {
+  border-bottom: 1px solid var(--line) !important;
+  box-shadow: none !important;
+}
+
 header nav {
-  border-bottom: 1px solid var(--line);
+  border-bottom: 0 !important;
+  box-shadow: none !important;
 }
 
 header nav a,
@@ -376,6 +384,14 @@ header nav a:hover {
   line-height: 1.55;
 }
 
+.paper-preview-subtitle {
+  margin: -0.15rem 0 0.55rem !important;
+  color: var(--muted) !important;
+  font-size: 0.84rem !important;
+  font-style: italic;
+  line-height: 1.4 !important;
+}
+
 .paper-authors,
 .paper-meta {
   color: var(--muted) !important;
@@ -480,6 +496,14 @@ header nav a:hover {
   margin: 0.45rem 0 0.35rem;
   font-size: 1.45rem;
   line-height: 1.25;
+}
+
+.paper-subtitle {
+  margin: -0.05rem 0 0.65rem !important;
+  color: var(--muted) !important;
+  font-size: 1rem !important;
+  font-style: italic;
+  line-height: 1.4 !important;
 }
 
 .paper-copy strong,
