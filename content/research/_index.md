@@ -17,13 +17,13 @@ show_page_navigation: false
 <div class="paper-status paper-status-accent">Job Market Paper</div>
 <h2>Family-led Structural Change</h2>
 <p class="paper-meta">Single-authored</p>
-<p><strong>Abstract.</strong> Structural transformation reallocates workers across sectors and places, but these choices also reshape the family networks inherited by later generations. I study this feedback during U.S. structural transformation from 1880 to 1950. I construct economy-wide extended family networks by linking full-count censuses across generations and space. Family connections are directional: sector-employed relatives increase entry into the same sector, relatives at origin discourage migration and relatives at destination predict where subsequent migrants go. Family dependence is weaker among workers with more schooling, consistent with formal routes substituting for family inputs. I discipline a dynamic spatial model with this evidence and use it to quantify how inherited and newly created family ties shape structural change over time.</p>
+<p><strong>Abstract.</strong> Structural transformation moves workers across sectors and places, but these choices also reshape the family networks inherited by the next generation. I study this feedback during the U.S. transformation from 1880 to 1950. Linking full-count censuses across generations and space, I construct a large-scale panel of extended family networks covering 32 million individuals by 1940, with family histories traced back to 1850. I show that where relatives work and live matters: relatives in a sector facilitate entry into that sector, relatives nearby discourage migration and family presence at destination directs subsequent migration. Dependence on inherited sector connections is weaker among workers with more schooling. I embed these mechanisms in a quantitative dynamic spatial model in which sector and location choices reshape the family network inherited by later generations. Family connections account for 15.19% of the recovered agriculture-to-manufacturing entry cost in 1880, while redistributing inherited horizontal ties across space raises the 1950 manufacturing share by 1.18 percentage points. The interaction between family networks and changing fundamentals depends on the margin of adjustment. In 1950, family connections amplify the manufacturing response to higher school expenditure by 63%, largely because schooling acts on family connections already in place. Lower migration costs initially weaken the role of local family ties, but the resulting reallocation rebuilds family support across destinations; by 1970, the manufacturing response is 13% larger with family connections than without them. Over development, family connections shift from agriculture toward manufacturing, become less local and increasingly concentrate at nonlocal destinations. Structural transformation therefore inherits a family geography and gradually reshapes the network through which later adjustment occurs.</p>
 <div class="button-row">
 <span class="site-button site-button-secondary site-button-placeholder" aria-disabled="true">Paper</span>
 </div>
 </div>
 <div class="featured-paper-figure">
-<img src="/uploads/eventstudy_manuf.png" alt="Evidence from Family-led Structural Change">
+<img src="/uploads/eventstudy_manuf_agric.png" alt="Evidence from Family-led Structural Change">
 </div>
 </section>
 <section class="paper-list-section">
@@ -55,15 +55,16 @@ show_page_navigation: false
 </section>
 <section class="paper-list-section wip-section">
 <div class="section-kicker">WORK IN PROGRESS</div>
-<article id="ties-that-bind" class="paper-row">
+<article id="inheriting-geography" class="paper-row">
 <div class="paper-image">
-<img src="/uploads/mignet_picture.png" alt="Family networks and internal migration">
+<img src="/uploads/mignet_picture.png" alt="Marriage and the intergenerational transmission of spatial opportunity">
 </div>
 <div class="paper-copy">
 <div class="paper-status">Work in Progress</div>
-<h2>Ties that Bind: Family Networks and Internal Migration</h2>
+<h2>Inheriting Geography</h2>
+<p class="paper-subtitle">Marriage and the Intergenerational Transmission of Spatial Opportunity</p>
 <p class="paper-meta">Single-authored</p>
-<p><strong>Abstract.</strong> I study how direct kinship networks shape internal migration and geographic adjustment. Using linked U.S. census data, I construct nationwide extended family networks and trace how their location changes over time. Family presence at origin is associated with lower migration, while relatives already established elsewhere strongly predict destination choice. I use these patterns to study how kinship networks affect mobility frictions and the spatial response to economic change.</p>
+<p><strong>Abstract.</strong> Marriage joins two people, but it also joins two spatially distributed families. Using complete-count U.S. censuses from 1880 to 1950 linked into extended family trees, I observe where both spouses' relatives live before marriage and trace the geography created by the match. Marriage sharply expands family-connected reach: before marriage, the husband's family spans 2.21 commuting zones and the wife's 2.07, while the union spans 3.52. Most overlap reflects the local scope of marriage markets, whereas socioeconomic sorting appears primarily in the quality of connected places. These new connections affect behavior. Comparing siblings who marry different spouses, I find that couples disproportionately settle in the exact destinations added by the spouse; a destination added through the wife raises settlement by 0.284 percentage points relative to a 0.141 percent generic-destination rate. This geography survives the generation that created it. Among cousins raised in the same place, children are substantially more likely to settle in destinations connected only through the family their parent married into, even when neither parent ever lived there. I develop a parsimonious partial-equilibrium model that uses these location responses to quantify how marital merging changes children's spatial opportunity and intergenerational mobility. Marriage therefore allocates not only individual characteristics across households but also a geography of family connections that can be transmitted across generations.</p>
 <span class="paper-note">Draft coming soon</span>
 </div>
 </article>
