@@ -44,16 +44,16 @@ sections:
         <div class="section-kicker">JOB MARKET PAPER</div>
         <div class="jmp-card">
         <div class="jmp-copy">
-        <h2>Family-led Structural Change</h2>
-        <p class="jmp-lead">How do family networks shape structural transformation? I study how inherited family connections affected sector entry and migration during U.S. structural transformation from 1880 to 1950.</p>
-        <p>Using newly constructed large-scale extended family networks linked across generations and space, I show that relatives shape occupational and migration choices. A tractable dynamic spatial model quantifies how these family ties affect the pace and geography of structural change.</p>
+        <h2>Dynastic Structural Change</h2>
+        <p class="jmp-lead">Kinship can slow structural change by tying workers to existing sectors and places, but development also reshapes what those ties connect workers to. I study this feedback during U.S. structural transformation from 1880 to 1950.</p>
+        <p>Using new data on extended family relationships covering 32 million individuals, I show that relatives shape sector entry and migration while worker reallocation creates new connections for later generations. A dynamic spatial model quantifies how changes in kinship connections affect the pace of structural change.</p>
         <div class="button-row">
-        <a class="site-button site-button-primary" href="/research/#family-led-structural-change">Abstract</a>
+        <a class="site-button site-button-primary" href="/research/#dynastic-structural-change">Abstract</a>
         <span class="site-button site-button-secondary site-button-placeholder" aria-disabled="true">Paper</span>
         </div>
         </div>
         <div class="jmp-figure-wrap">
-        <img class="jmp-figure" src="/uploads/eventstudy_manuf_agric.png" alt="Evidence from Family-led Structural Change">
+        <img class="jmp-figure" src="/uploads/dynastic_structural_change.png" alt="Evidence from Dynastic Structural Change">
         </div>
         </div>
         </div>
@@ -92,9 +92,8 @@ sections:
         <article class="research-preview-card">
         <div class="paper-status">Work in Progress</div>
         <h3>Inheriting Geography</h3>
-        <p class="paper-preview-subtitle">Marriage and the Intergenerational Transmission of Spatial Opportunity</p>
-        <p class="paper-authors">Single-authored</p>
-        <p>Marriage merges two spatially distributed family networks, expanding the set of family-connected destinations and transmitting new spatial opportunities to the next generation.</p>
+        <p class="paper-preview-subtitle">Marriage and the Intergenerational Spatial Transmission of Opportunity</p>
+        <p>Marriage reshapes family geography by changing where households settle and which destinations are connected to the next generation. Using linked U.S. families from 1880 to 1950, I show that marriage expands family-connected geography, affects where couples settle and creates destination connections that persist into the next generation.</p>
         <a class="text-link" href="/research/#inheriting-geography">Abstract →</a>
         </article>
         </div>
