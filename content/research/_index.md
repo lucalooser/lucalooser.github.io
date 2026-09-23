@@ -12,18 +12,17 @@ show_page_navigation: false
 <h1>Research</h1>
 <p>My research is in macro development, economic geography and family economics, with a focus on structural transformation and spatial mobility.</p>
 </header>
-<section id="family-led-structural-change" class="featured-paper">
+<section id="dynastic-structural-change" class="featured-paper">
 <div class="featured-paper-copy">
 <div class="paper-status paper-status-accent">Job Market Paper</div>
-<h2>Family-led Structural Change</h2>
-<p class="paper-meta">Single-authored</p>
-<p><strong>Abstract.</strong> I study how family networks shape structural transformation during the U.S. transition from 1880 to 1950. Linking full-count censuses across generations and space, I construct extended family networks covering 32 million individuals by 1940. Relatives facilitate entry into their sector, nearby relatives discourage migration and family presence at destination directs subsequent migration, while dependence on inherited sector ties is weaker among workers with more schooling. I embed these mechanisms in a dynamic spatial model in which sector and location choices reshape future family geography. Family connections account for 15.19% of the recovered agriculture-to-manufacturing entry cost in 1880, while redistributing inherited horizontal ties raises the 1950 manufacturing share by 1.18 percentage points. Family ties therefore shape both the pace and geography of structural change.</p>
+<h2>Dynastic Structural Change</h2>
+<p><strong>Abstract.</strong> Kinship can slow structural change by tying workers to existing sectors and places, but development also changes what those ties connect workers to. I study this feedback during U.S. structural transformation from 1880 to 1950. I construct new data on extended family relationships covering 32 million individuals and show that kinship increasingly connects workers to manufacturing and more distant places. Quasi-experimental evidence shows that sector-employed relatives increase employment in the same sector, local relatives reduce migration and relatives at destinations predict where migrants go. I embed these margins in a dynamic spatial model in which sector and location choices reshape the kinship connections available to later generations. With the spatial pattern of kinship ties observed in 1880, the 1950 manufacturing share is 1.31 percentage points lower than in an economy without them. As workers reallocate, however, they change where these ties lead, offsetting 55% of this drag by 1950 and 90% by 1970. Kinship connections formed through relocation account for 59% of the grant’s cumulative manufacturing effect through 1970.</p>
 <div class="button-row">
 <span class="site-button site-button-secondary site-button-placeholder" aria-disabled="true">Paper</span>
 </div>
 </div>
 <div class="featured-paper-figure">
-<img src="/uploads/eventstudy_manuf_agric.png" alt="Evidence from Family-led Structural Change">
+<img src="/uploads/dynastic_structural_change.png" alt="Evidence from Dynastic Structural Change">
 </div>
 </section>
 <section class="paper-list-section">
@@ -57,14 +56,13 @@ show_page_navigation: false
 <div class="section-kicker">WORK IN PROGRESS</div>
 <article id="inheriting-geography" class="paper-row">
 <div class="paper-image">
-<img src="/uploads/mignet_picture.png" alt="Marriage and the intergenerational transmission of spatial opportunity">
+<img src="/uploads/inheriting_geography.png" alt="Inheriting Geography">
 </div>
 <div class="paper-copy">
 <div class="paper-status">Work in Progress</div>
 <h2>Inheriting Geography</h2>
-<p class="paper-subtitle">Marriage and the Intergenerational Transmission of Spatial Opportunity</p>
-<p class="paper-meta">Single-authored</p>
-<p><strong>Abstract.</strong> Marriage joins not only two people but also two spatially distributed families. Using complete-count U.S. censuses from 1880 to 1950 linked into extended family trees, I trace how marriage expands family-connected geography and how these new connections affect location choice. Marriage substantially expands the set of places connected through family, as spouses bring partly distinct family geographies into the union. Comparing siblings who marry different spouses, I find that couples disproportionately settle in destinations added through the spouse. These connections persist across generations: children are more likely to settle in places connected only through the family their parent married into, even when neither parent ever lived there. A parsimonious model uses these responses to quantify how marital merging changes children's spatial opportunity and intergenerational mobility.</p>
+<p class="paper-subtitle">Marriage and the Intergenerational Spatial Transmission of Opportunity</p>
+<p><strong>Abstract.</strong> Marriage reshapes family geography, changing where households settle and which destinations are connected to the next generation. Using linked U.S. families from 1880 to 1950, I show that marriage expands family-connected geography by 59%, while the local scope of marriage accounts for most of the overlap between spouses’ premarital connections. Within natal families, individuals are more likely to settle near a spouse’s relatives and children are more likely to settle in destinations introduced through their parents’ marriage, including places where neither parent ever lived. I discipline a partial-equilibrium model with these responses. Holding the observed socioeconomic match and premarital origins fixed, expanding one spouse’s family geography from the spouse’s own commuting zone to anywhere in the country closes about one-sixth of the top-to-bottom parental-rank gap in children’s access to top-quartile destinations. About three quarters of this effect operates through parental settlement, as family geography changes where parents establish the household and children inherit that origin.</p>
 <span class="paper-note">Draft coming soon</span>
 </div>
 </article>
