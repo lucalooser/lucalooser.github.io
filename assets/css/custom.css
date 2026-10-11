@@ -171,8 +171,8 @@ header nav a:hover {
   grid-template-columns: minmax(0, 1fr) 235px;
   gap: clamp(2.5rem, 7vw, 5.8rem);
   align-items: center;
-  padding-top: 7.1rem !important;
-  padding-bottom: 5rem !important;
+  padding-top: 2.4rem !important;
+  padding-bottom: 3rem !important;
 }
 
 .hero-copy h1 {
@@ -588,8 +588,8 @@ footer .powered-by {
   .hero-section {
     grid-template-columns: minmax(0, 1fr) 210px;
     gap: 2.4rem;
-    padding-top: 6rem !important;
-    padding-bottom: 4rem !important;
+    padding-top: 2.6rem !important;
+    padding-bottom: 3rem !important;
   }
 
   .hero-photo-wrap,
@@ -627,7 +627,7 @@ footer .powered-by {
   .hero-section {
     grid-template-columns: 1fr;
     gap: 2rem;
-    padding-top: 5.4rem !important;
+    padding-top: 2.2rem !important;
   }
 
   .hero-photo-wrap {
@@ -699,7 +699,15 @@ footer .powered-by {
   margin-top: -5rem;
 }
 .research-page .page-intro {
+  width: 100%;
+  max-width: none !important;
   margin-bottom: 2.2rem;
+}
+
+/* Keep the subtitle legible at all widths: the full-width intro fits on one
+   line on desktop but may wrap naturally on small screens. */
+.research-page .page-intro p {
+  max-width: none !important;
 }
 
 @media (max-width: 640px) {
