@@ -679,3 +679,31 @@ footer .powered-by {
     height: 720px;
   }
 }
+
+
+/* October 2026 — Research-page spacing and JMP subtitle. */
+.jmp-copy .jmp-subtitle,
+.featured-paper .jmp-subtitle {
+  margin: -0.2rem 0 1.1rem !important;
+  color: var(--muted) !important;
+  font-size: 1.12rem !important;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 1.4 !important;
+}
+
+/* Hugo's page wrapper already provides vertical spacing. Avoid adding
+   a second large top padding on the Research page. */
+.research-page {
+  padding-top: 0.75rem !important;
+  margin-top: -5rem;
+}
+.research-page .page-intro {
+  margin-bottom: 2.2rem;
+}
+
+@media (max-width: 640px) {
+  .research-page {
+    margin-top: -1.5rem;
+  }
+}
