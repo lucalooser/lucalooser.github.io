@@ -45,7 +45,7 @@ sections:
         <div class="jmp-card">
         <div class="jmp-copy">
         <h2>From Roots to Branches</h2>
-<p class="jmp-subtitle">The Role of Families in Structural Change</p>
+        <p class="jmp-subtitle">The Role of Families in Structural Change</p>
         <p class="jmp-lead">Economic opportunities differ sharply across sectors and places, but family can either reinforce or ease the barriers to reaching them. Relatives in existing sectors and locations can slow reallocation, while kin in expanding sectors and at destinations can facilitate sector switching and migration.</p>
         <p>Using reconstructed kin ties for 32 million individuals, I show that these opposing forces shaped U.S. structural change from 1880 to 1970. A dynamic spatial model quantifies how evolving kinship connections initially slowed reallocation but increasingly facilitated it over time.</p>
         <div class="button-row">
