@@ -17,7 +17,7 @@ sections:
         <div class="hero-copy">
         <h1>Luca Looser</h1>
         <p class="hero-role">PhD Candidate in Economics · Universitat Pompeu Fabra</p>
-        <p class="hero-fields">Macro Development <span>·</span> Economic Geography <span>·</span> Family Economics</p>
+        <p class="hero-fields">Macro Development <span>·</span> Economic Geography</p>
         <p class="hero-description">I study how families and geography shape structural transformation and economic development. My work combines large-scale data, quasi-experimental evidence and quantitative spatial models.</p>
         <p class="hero-market">I am on the 2026–27 academic job market.</p>
         <p class="hero-advisors">Advisors: <a href="https://sites.google.com/view/elisagiannone/" target="_blank" rel="noopener">Elisa Giannone</a> and <a href="https://sites.google.com/view/davidknagy/bio?authuser=0" target="_blank" rel="noopener">Dávid Krisztián Nagy</a>.</p>
@@ -44,16 +44,16 @@ sections:
         <div class="section-kicker">JOB MARKET PAPER</div>
         <div class="jmp-card">
         <div class="jmp-copy">
-        <h2>Dynastic Structural Change</h2>
-        <p class="jmp-lead">Kinship can slow structural change by tying workers to existing sectors and places, but development also reshapes what those ties connect workers to. I study this feedback during U.S. structural transformation from 1880 to 1950.</p>
-        <p>Using new data on extended family relationships covering 32 million individuals, I show that relatives shape sector entry and migration while worker reallocation creates new connections for later generations. A dynamic spatial model quantifies how changes in kinship connections affect the pace of structural change.</p>
+        <h2>From Roots to Branches: The Role of Families in Structural Change</h2>
+        <p class="jmp-lead">Economic opportunities differ sharply across sectors and places, but family can either reinforce or ease the barriers to reaching them. Relatives in existing sectors and locations can slow reallocation, while kin in expanding sectors and at destinations can facilitate sector switching and migration.</p>
+        <p>Using reconstructed kin ties for 32 million individuals, I show that these opposing forces shaped U.S. structural change from 1880 to 1970. A dynamic spatial model quantifies how evolving kinship connections initially slowed reallocation but increasingly facilitated it over time.</p>
         <div class="button-row">
-        <a class="site-button site-button-primary" href="/research/#dynastic-structural-change">Abstract</a>
-        <span class="site-button site-button-secondary site-button-placeholder" aria-disabled="true">Paper</span>
+        <a class="site-button site-button-primary" href="/research/#from-roots-to-branches">Abstract</a>
+        <a class="site-button site-button-secondary" href="/uploads/Looser_roots.pdf" target="_blank" rel="noopener">Paper</a>
         </div>
         </div>
         <div class="jmp-figure-wrap">
-        <img class="jmp-figure" src="/uploads/dynastic_structural_change.png" alt="Evidence from Dynastic Structural Change">
+        <img class="jmp-figure" src="/uploads/from_roots_to_branches.png" alt="Evidence from From Roots to Branches">
         </div>
         </div>
         </div>
@@ -93,8 +93,9 @@ sections:
         <div class="paper-status">Work in Progress</div>
         <h3>Inheriting Geography</h3>
         <p class="paper-preview-subtitle">Marriage and the Intergenerational Spatial Transmission of Opportunity</p>
-        <p>Marriage reshapes family geography by changing where households settle and which destinations are connected to the next generation. Using linked U.S. families from 1880 to 1950, I show that marriage expands family-connected geography, affects where couples settle and creates destination connections that persist into the next generation.</p>
+        <p>Children inherit not only resources from their parents but also a geography. Using linked U.S. families from 1880 to 1950, I show that marriage expands family-connected places, shapes where couples settle and changes the destinations available to the next generation.</p>
         <a class="text-link" href="/research/#inheriting-geography">Abstract →</a>
+        <a class="text-link" href="/uploads/Looser_geography.pdf" target="_blank" rel="noopener">Paper →</a>
         </article>
         </div>
         </div>
