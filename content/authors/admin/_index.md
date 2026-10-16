@@ -40,7 +40,7 @@ languages:
 ---
 <div class="hero-bio">
   <div class="job-market-label">2026–27 JOB MARKET</div>
-  <p class="hero-fields">Macro Development <span>·</span> Economic Geography <span>·</span> Family Economics</p>
+  <p class="hero-fields">Macro Development <span>·</span> Economic Geography</p>
   <p>I study how families, geography and institutions shape structural transformation and economic development. My work combines large-scale historical data, quasi-experimental evidence and quantitative spatial models.</p>
   <p class="hero-advisors">Advisors: <a href="https://sites.google.com/view/elisagiannone/" target="_blank" rel="noopener">Elisa Giannone</a> and <a href="https://sites.google.com/view/davidknagy/bio?authuser=0" target="_blank" rel="noopener">Dávid Krisztián Nagy</a>.</p>
   <div class="button-row hero-buttons">
