@@ -715,3 +715,20 @@ footer .powered-by {
     margin-top: -1.5rem;
   }
 }
+
+/* October 2026: bring Teaching up to the same vertical position as Research.
+   The shared academic-page-shell has generous default top padding. */
+.teaching-page {
+  padding-top: 0.75rem !important;
+  margin-top: -5rem;
+}
+.teaching-page .page-intro {
+  width: 100%;
+  max-width: none !important;
+  margin-bottom: 2.2rem;
+}
+@media (max-width: 640px) {
+  .teaching-page {
+    margin-top: -1.5rem;
+  }
+}
