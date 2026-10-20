@@ -52,9 +52,6 @@ show_page_navigation: false
 <span class="paper-note">New draft coming soon</span>
 </div>
 </article>
-</section>
-<section class="paper-list-section wip-section">
-<div class="section-kicker">WORK IN PROGRESS</div>
 <article id="inheriting-geography" class="paper-row">
 <div class="paper-image">
 <img src="/uploads/inheriting_geography.png" alt="Inheriting Geography">
