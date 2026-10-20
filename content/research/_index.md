@@ -60,7 +60,7 @@ show_page_navigation: false
 <img src="/uploads/inheriting_geography.png" alt="Inheriting Geography">
 </div>
 <div class="paper-copy">
-<div class="paper-status">Work in Progress</div>
+<div class="paper-status">Working Paper</div>
 <h2>Inheriting Geography</h2>
 <p class="paper-subtitle">Marriage and the Intergenerational Spatial Transmission of Opportunity</p>
 <p><strong>Abstract.</strong> Children inherit not only resources from their parents but also a geography: where they grow up and the places to which their family is connected. I study how marriage shapes this inheritance across U.S. families from 1880 to 1950. Marriage expands the set of family-connected places by 59%. Within families, people are more likely to settle near a spouse’s relatives and their children are more likely to settle in places introduced through the marriage, including destinations where neither parent ever lived. I develop a two-generation location model to quantify these effects. Family ties strongly anchor parents to inherited locations: removing family proximity makes couples about 20 percentage points less likely to settle in a spouse's premarital commuting zone and weakens the relationship between parents' socioeconomic status and the destination wage their children reach by about one third. These constraints are strongest for children of poorer parents, and most of the intergenerational effect operates through where parents settle rather than through destinations children inherit directly.</p>
