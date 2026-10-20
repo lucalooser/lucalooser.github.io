@@ -91,7 +91,7 @@ sections:
         <a class="text-link" href="/research/#temporary-shock">Abstract →</a>
         </article>
         <article class="research-preview-card">
-        <div class="paper-status">Work in Progress</div>
+        <div class="paper-status">Working Paper</div>
         <h3>Inheriting Geography</h3>
         <p class="paper-preview-subtitle">Marriage and the Intergenerational Spatial Transmission of Opportunity</p>
         <p>Children inherit not only resources from their parents but also a geography. Using linked U.S. families from 1880 to 1950, I show that marriage expands family-connected places, shapes where couples settle and changes the destinations available to the next generation.</p>
