@@ -46,8 +46,8 @@ sections:
         <div class="jmp-copy">
         <h2>From Roots to Branches</h2>
         <p class="jmp-subtitle">The Role of Families in Structural Change</p>
-        <p class="jmp-lead">Economic opportunities differ sharply across sectors and places, but family can either reinforce or ease the barriers to reaching them. Relatives in existing sectors and locations can slow reallocation, while kin in expanding sectors and at destinations can facilitate sector switching and migration.</p>
-        <p>Using reconstructed kin ties for 32 million individuals, I show that these opposing forces shaped U.S. structural change from 1880 to 1970. A dynamic spatial model quantifies how evolving kinship connections initially slowed reallocation but increasingly facilitated it over time.</p>
+        <p class="jmp-lead">Family ties can anchor workers to existing industries and locations, but relatives in expanding sectors and growing destinations can help others pursue new opportunities.</p>
+        <p>Using reconstructed family ties for 32 million individuals, I show how these opposing forces shaped U.S. structural transformation from 1880 to 1970. As relatives entered manufacturing and moved to more industrialized places, the connections they created offset about 90% of the initial drag of family ties by 1970. Moving vouchers can also generate lasting gains for family members left behind.</p>
         <div class="button-row">
         <a class="site-button site-button-primary" href="/research/#from-roots-to-branches">Abstract</a>
         <a class="site-button site-button-secondary" href="/uploads/Looser_roots.pdf" target="_blank" rel="noopener">Paper</a>
