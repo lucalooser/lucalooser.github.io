@@ -22,7 +22,7 @@ sections:
         <p class="hero-market">I am on the 2026–27 academic job market.</p>
         <p class="hero-advisors">Advisors: <a href="https://sites.google.com/view/elisagiannone/" target="_blank" rel="noopener">Elisa Giannone</a> and <a href="https://sites.google.com/view/davidknagy/bio?authuser=0" target="_blank" rel="noopener">Dávid Krisztián Nagy</a>.</p>
         <div class="button-row hero-buttons">
-        <a class="site-button site-button-primary" href="#job-market-paper">Job Market Paper</a>
+        <a class="site-button site-button-primary" href="/uploads/Looser_roots.pdf" target="_blank" rel="noopener">Job Market Paper</a>
         <a class="site-button site-button-secondary" href="/uploads/lucalooser_cv.pdf" target="_blank" rel="noopener">CV</a>
         </div>
         <a class="hero-email" href="mailto:luca.looser@upf.edu">luca.looser@upf.edu</a>
